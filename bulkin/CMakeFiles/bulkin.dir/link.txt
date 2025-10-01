@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbulkin.a CMakeFiles/bulkin.dir/src/buffer.cpp.o CMakeFiles/bulkin.dir/src/bulkin.cpp.o CMakeFiles/bulkin.dir/src/camera.cpp.o CMakeFiles/bulkin.dir/src/device.cpp.o "CMakeFiles/bulkin.dir/src/graphics-pipeline.cpp.o" CMakeFiles/bulkin.dir/src/swapchain.cpp.o
+/usr/bin/ranlib libbulkin.a
