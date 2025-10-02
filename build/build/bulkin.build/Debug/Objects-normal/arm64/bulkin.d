@@ -278,4 +278,6 @@ dependencies: /Users/matty/projects/bulkin/src/bulkin.cpp \
   /Users/matty/projects/bulkin/include/glm/gtx/../gtc/../vector_relational.hpp \
   /Users/matty/projects/bulkin/include/glm/gtx/../gtc/../common.hpp \
   /Users/matty/projects/bulkin/include/glm/gtx/compatibility.inl \
+  /Users/matty/projects/bulkin/include/quad.h \
+  /Users/matty/projects/bulkin/include/vertex.h \
   /Users/matty/projects/bulkin/include/constants.h

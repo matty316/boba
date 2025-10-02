@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'boba' in project 'boba'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'boba'
+➜ Explicit dependency on target 'bulkin' in project 'boba'
+Target 'bulkin' in project 'boba' (no dependencies)
+Target 'ZERO_CHECK' in project 'boba' (no dependencies)
