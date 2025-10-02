@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/matty/projects/boba/build/cmake_install.cmake",
-		"/Users/matty/projects/boba/bulkin/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

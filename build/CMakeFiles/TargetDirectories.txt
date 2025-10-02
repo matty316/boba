@@ -1,6 +1,0 @@
-/Users/matty/projects/boba/build/CMakeFiles/boba.dir
-/Users/matty/projects/boba/build/CMakeFiles/ALL_BUILD.dir
-/Users/matty/projects/boba/build/CMakeFiles/ZERO_CHECK.dir
-/Users/matty/projects/boba/bulkin/CMakeFiles/bulkin.dir
-/Users/matty/projects/boba/bulkin/CMakeFiles/ALL_BUILD.dir
-/Users/matty/projects/boba/bulkin/CMakeFiles/ZERO_CHECK.dir
