@@ -5,7 +5,7 @@
 
 int main() {
   Bulkin app;
-  Level level("resources/level.tmx");
+  BulkinLevel level("resources/level.tmx");
   level.renderLevel(app);
   app.run();
 }
