@@ -10,7 +10,7 @@ int main() {
   auto ceilingTexture = app.addTexture("textures/plastered_wall_diff_4k.jpg");
   BulkinLevel level("resources/level.tmx", wallTexture, boxTexture, ceilingTexture, 2);
   level.renderLevel(app);
-  auto 
-  app.addModel("resources/viking_room.obj", "textures/viking_room.png");
+  auto roomTex = app.addTexture("textures/viking_room.png");
+  app.addModel("resources/viking_room.obj", roomTex);
   app.run();
 }
