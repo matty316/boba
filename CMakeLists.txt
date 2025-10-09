@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.29)
 find_package(Vulkan REQUIRED)
 project(boba LANGUAGES CXX)
 
-add_subdirectory("../bulkin" "../bulkin")
+add_subdirectory("bulkin")
 
 set(CMAKE_CXX_STANDARD 23)
 file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
