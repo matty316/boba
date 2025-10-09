@@ -1,6 +1,5 @@
 #include "bulkin.h"
 #include "level.h"
-#include "quad.h"
 #include <glm/glm.hpp>
 
 int main() {
@@ -8,8 +7,10 @@ int main() {
   auto wallTexture = app.addTexture("textures/red_brick_diff_4k.jpg");
   auto boxTexture = app.addTexture("textures/brown_floor_tiles_diff_4k.jpg");
   auto ceilingTexture = app.addTexture("textures/plastered_wall_diff_4k.jpg");
-  BulkinLevel level("resources/level.tmx", wallTexture, boxTexture, ceilingTexture, 2);
+  BulkinLevel level("resources/level.tmx", wallTexture, boxTexture,
+                    ceilingTexture, 2);
   level.renderLevel(app);
-  app.addModel("resources/counter_top/scene.gltf", {5.0f, 0.1f, 10.0f}, 0.0f, {1.0f, 1.0f, 1.0f}, 0.01f);
+  app.addModel("resources/counter_top/scene.gltf", {5.0f, 0.1f, 10.0f}, 0.0f,
+               {1.0f, 1.0f, 1.0f}, 0.01f);
   app.run();
 }
