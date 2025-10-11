@@ -10,7 +10,7 @@ int main() {
   BulkinLevel level("resources/level.tmx", wallTexture, boxTexture,
                     ceilingTexture, 2);
   level.renderLevel(app);
-  app.addModel("resources/counter_top/scene.gltf", {5.0f, 0.1f, 10.0f}, 0.0f,
-               {1.0f, 1.0f, 1.0f}, 0.01f);
+  app.addModel("resources/counter_top/scene.gltf", {5.0f, 0.003f, 10.0f}, 90.0f,
+               {0.0f, 1.0f, 0.0f}, 0.006f);
   app.run();
 }
