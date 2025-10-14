@@ -3,10 +3,10 @@ cmake_minimum_required(VERSION 3.29)
 find_package(Vulkan REQUIRED)
 project(boba LANGUAGES CXX)
 
-if(APPLE OR BULKIN) 
-  add_subdirectory("bulkin")
-else()
+if(OPE) 
   add_subdirectory("opeGL")
+else()
+  add_subdirectory("bulkin")
 endif()
 
 set(CMAKE_CXX_STANDARD 23)
@@ -16,10 +16,11 @@ file(GLOB_RECURSE MY_HEADERS CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/incl
 add_executable(boba "${MY_SOURCES}" "${MY_HEADERS}")
 target_include_directories(boba PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include/")
 
-if(APPLE OR BULKIN)
-  target_link_libraries(boba PRIVATE bulkin Vulkan::Vulkan)
-else()
+if(OPE)
   target_link_libraries(boba PRIVATE opeGL)
+  target_compile_definitions(boba PRIVATE OPEGL)
+else()
+  target_link_libraries(boba PRIVATE bulkin Vulkan::Vulkan)
 endif()
 
 target_compile_options(boba PRIVATE -Wall -Wextra -g)
