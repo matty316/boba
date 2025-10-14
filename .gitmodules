@@ -1,3 +1,6 @@
 [submodule "bulkin"]
 	path = bulkin
 	url = git@github.com:matty316/bulkin.git
+[submodule "opeGL"]
+	path = opeGL
+	url = git@github.com:matty316/opeGL.git
