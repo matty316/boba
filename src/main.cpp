@@ -9,6 +9,10 @@
 int main() {
 #ifdef OPEGL
   OpeGL app;
+  app.addQuad({0.0f, 0.0f, 0.0f}, 0.0f, {1.0f, 1.0f, 1.0f}, 1.0f);
+  app.addQuad({0.5f, 0.0f, -0.5f}, 90.0f, {0.0f, 1.0f, 0.0f}, 1.0f);
+  app.addQuad({-0.5f, 0.0f, -0.5f}, 270.0f, {0.0f, 1.0f, 0.0f}, 1.0f);
+  app.addQuad({0.0f, 0.0f, -1.0f}, 180.0f, {0.0f, 1.0f, 0.0f}, 1.0f);
 #else
   Bulkin app;
   auto wallTexture = app.addTexture("textures/red_brick_diff_4k.jpg");
