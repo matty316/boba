@@ -1,4 +1,5 @@
 #ifdef OPEGL
+#include <level.hpp>
 #include <opegl.hpp>
 #else
 #include "bulkin.h"
@@ -10,24 +11,22 @@ int main() {
 #ifdef OPEGL
   OpeGL app;
   auto wallTexture = app.addTexture("textures/red_brick_diff_4k.jpg");
+  auto floorTexture = app.addTexture("textures/brown_floor_tiles_diff_4k.jpg");
+  auto ceilingTexture = app.addTexture("textures/plastered_wall_diff_4k.jpg");
+  OpeLevel level("resources/level.tmx", wallTexture, floorTexture,
+                 ceilingTexture, 2);
+  level.loadLevel(app);
 
-  app.addQuad({0.0f, 0.0f, 0.0f}, 0.0f, {1.0f, 1.0f, 1.0f}, 1.0f, wallTexture);
-  app.addQuad({0.5f, 0.0f, -0.5f}, 90.0f, {0.0f, 1.0f, 0.0f}, 1.0f,
-              wallTexture);
-  app.addQuad({-0.5f, 0.0f, -0.5f}, 270.0f, {0.0f, 1.0f, 0.0f}, 1.0f,
-              wallTexture);
-  app.addQuad({0.0f, 0.0f, -1.0f}, 180.0f, {0.0f, 1.0f, 0.0f}, 1.0f,
-              wallTexture);
 #else
   Bulkin app;
+  app.addModel("resources/counter_top/scene.gltf", {5.0f, 0.003f, 10.0f}, 90.0f,
+               {0.0f, 1.0f, 0.0f}, 0.006f);
   auto wallTexture = app.addTexture("textures/red_brick_diff_4k.jpg");
   auto boxTexture = app.addTexture("textures/brown_floor_tiles_diff_4k.jpg");
   auto ceilingTexture = app.addTexture("textures/plastered_wall_diff_4k.jpg");
   BulkinLevel level("resources/level.tmx", wallTexture, boxTexture,
                     ceilingTexture, 2);
   level.renderLevel(app);
-  app.addModel("resources/counter_top/scene.gltf", {5.0f, 0.003f, 10.0f}, 90.0f,
-               {0.0f, 1.0f, 0.0f}, 0.006f);
 
 #endif
 
