@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/matty/boba/build/cmake_install.cmake",
+		"/home/matty/boba/build/opeGL/cmake_install.cmake",
+		"/home/matty/boba/build/opeGL/thirdParty/glfw/cmake_install.cmake",
+		"/home/matty/boba/build/opeGL/thirdParty/glfw/src/cmake_install.cmake",
+		"/home/matty/boba/build/opeGL/thirdParty/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

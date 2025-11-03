@@ -1,12 +1,12 @@
 #ifdef OPEGL
 #include <opegl.hpp>
+OpeGL app;
 #else
 #include "bulkin.h"
 #endif
 
 int main() {
 #ifdef OPEGL
-  OpeGL app;
 #else
   Bulkin app;
 #endif
