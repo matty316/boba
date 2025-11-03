@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+4c3312a3afc3c28d6bbe216fd3c6626c opeGL/thirdParty/glfw/CMakeFiles/uninstall
+fff258ffe3259f594626ac9ff114a12d opeGL/thirdParty/glfw/src/CMakeFiles/update_mappings
+71b373d0a060d61569552f5156262575 opeGL/thirdParty/glfw/src/fractional-scale-v1-client-protocol-code.h
+7a574fe64aa48c63e130660a7bdf4053 opeGL/thirdParty/glfw/src/fractional-scale-v1-client-protocol.h
+bfda5b70e9304cb8a89c720e68c60853 opeGL/thirdParty/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h
+afe4a9fd84eb252a3f8ded6c41282ee0 opeGL/thirdParty/glfw/src/idle-inhibit-unstable-v1-client-protocol.h
+582944ddb84885f52ab5e9f2781733e2 opeGL/thirdParty/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h
+3eb83afc9bd371cb983ce31f1541e8f0 opeGL/thirdParty/glfw/src/pointer-constraints-unstable-v1-client-protocol.h
+83903faffc72f164fbbda0e02312b332 opeGL/thirdParty/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h
+34e1a9c209be1eb4350b4ce8883b9da4 opeGL/thirdParty/glfw/src/relative-pointer-unstable-v1-client-protocol.h
+3e64fb37bb0d8d2a37f04f48b3709620 opeGL/thirdParty/glfw/src/viewporter-client-protocol-code.h
+5e62352ac15c238127dd984f20a18087 opeGL/thirdParty/glfw/src/viewporter-client-protocol.h
+42a822c54aecb1b0edba1234bd326353 opeGL/thirdParty/glfw/src/wayland-client-protocol-code.h
+c84ca9d2db3f7a74b7a39a2580df918b opeGL/thirdParty/glfw/src/wayland-client-protocol.h
+8543ef76d42dd2879278bf7368ae768e opeGL/thirdParty/glfw/src/xdg-activation-v1-client-protocol-code.h
+c3406a8002710d48e49bb1fc68741e83 opeGL/thirdParty/glfw/src/xdg-activation-v1-client-protocol.h
+9636f9bbfa8f0d33c14bc43e3c05c25d opeGL/thirdParty/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h
+f309afa550bfe2118f94a317fd4b273e opeGL/thirdParty/glfw/src/xdg-decoration-unstable-v1-client-protocol.h
+4334b716f42ee9389955aaf807066307 opeGL/thirdParty/glfw/src/xdg-shell-client-protocol-code.h
+adbbd7b4586a4463d97231887bdb7820 opeGL/thirdParty/glfw/src/xdg-shell-client-protocol.h
