@@ -23,11 +23,8 @@ ASSIMP_ARCHIVE_OUTPUT_DIRECTORY:STRING=/Users/matty/projects/boba/build-xcode/bu
 //Enable AddressSanitizer.
 ASSIMP_ASAN:BOOL=OFF
 
-//default value of all ASSIMP_BUILD_XXX_EXPORTER values
-ASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT:BOOL=ON
-
 //default value of all ASSIMP_BUILD_XXX_IMPORTER values
-ASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT:BOOL=ON
+ASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT:BOOL=OFF
 
 //describe the current architecture.
 ASSIMP_BUILD_ARCHITECTURE:STRING=
@@ -64,7 +61,7 @@ ASSIMP_BUILD_NONFREE_C4D_IMPORTER:BOOL=OFF
 ASSIMP_BUILD_SAMPLES:BOOL=OFF
 
 //If the test suite for Assimp is built in addition to the library.
-ASSIMP_BUILD_TESTS:BOOL=ON
+ASSIMP_BUILD_TESTS:BOOL=OFF
 
 //Enable USD file import
 ASSIMP_BUILD_USD_IMPORTER:BOOL=OFF
@@ -87,10 +84,6 @@ ASSIMP_COVERALLS:BOOL=OFF
 //Set to ON to enable double precision processing
 ASSIMP_DOUBLE_PRECISION:BOOL=OFF
 
-//adds the target headercheck which compiles every header file,
-// default disabled because it adds many targets
-ASSIMP_HEADERCHECK:BOOL=OFF
-
 //Enable Hunter package manager support
 ASSIMP_HUNTER_ENABLED:BOOL=OFF
 
@@ -112,7 +105,7 @@ ASSIMP_LIBRARY_OUTPUT_DIRECTORY:STRING=/Users/matty/projects/boba/build-xcode/bu
 ASSIMP_LIBRARY_SUFFIX:STRING=
 
 //Disable Assimp's export functionality.
-ASSIMP_NO_EXPORT:BOOL=OFF
+ASSIMP_NO_EXPORT:BOOL=ON
 
 //Set to ON to generate CPack configuration files and packaging
 // targets
@@ -487,13 +480,7 @@ ZLIB_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOS
 ZLIB_LIBRARY_DBG:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/lib/libz.tbd
 
 //Path to a library.
-ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
 ZLIB_LIBRARY_REL:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/lib/libz.tbd
-
-//Path to a library.
-ZLIB_LIBRARY_RELEASE:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/lib/libz.tbd
 
 //Value Computed by CMake
 boba_BINARY_DIR:STATIC=/Users/matty/projects/boba/build-xcode
@@ -651,7 +638,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -702,8 +689,6 @@ DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding Vulkan
 FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[/Users/matty/VulkanSDK/default/macOS/lib/libvulkan.dylib][/Users/matty/vulkanSDK/default/macOS/include][found components: glslc glslangValidator ][v1.4.321()]
-//Details about finding ZLIB
-FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/lib/libz.tbd][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include][ ][v1.2.12()]
 //GLFW pkg-config Libs.private
 GLFW_PKG_CONFIG_LIBS_PRIVATE:INTERNAL= -framework Cocoa -framework IOKit -framework CoreFoundation
 //GLFW pkg-config Requires.private
@@ -713,15 +698,15 @@ PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //Stored Xcode object GUID
-PROJECT_Assimp_GUID_CMAKE:INTERNAL=4E75D70715DA4FB48BC5697F
+PROJECT_Assimp_GUID_CMAKE:INTERNAL=FF9FC84A9C0644E2BDA92246
 //Stored Xcode object GUID
-PROJECT_GLFW_GUID_CMAKE:INTERNAL=92F721D50EF844B2A4B827AF
+PROJECT_GLFW_GUID_CMAKE:INTERNAL=34D13817BE184D818DCCCFA4
 //Stored Xcode object GUID
-PROJECT_boba_GUID_CMAKE:INTERNAL=977869D7ED654E1E921FE68D
+PROJECT_boba_GUID_CMAKE:INTERNAL=3A86345C1751418BBB829C7B
 //Stored Xcode object GUID
-PROJECT_bulkin_GUID_CMAKE:INTERNAL=1C116FB94D9643FD924922B6
+PROJECT_bulkin_GUID_CMAKE:INTERNAL=E0D9F977B5624F84BFCD1464
 //Stored Xcode object GUID
-PROJECT_tmxlite_GUID_CMAKE:INTERNAL=8AEC5071709842808B3F9799
+PROJECT_tmxlite_GUID_CMAKE:INTERNAL=7E98B416D0694935A6552DE0
 //ADVANCED property for variable: RT_LIBRARY
 RT_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
@@ -738,12 +723,8 @@ ZERO_CHECK_GUID_CMAKE:INTERNAL=E00DE3F71F569CA7A015F1EA
 ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_DBG
 ZLIB_LIBRARY_DBG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
-ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_REL
 ZLIB_LIBRARY_REL-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
-ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //x
 ZLIB_PREFIX_PATH_INT_CHECK:INTERNAL=
 //CMAKE_INSTALL_PREFIX during last run
@@ -762,8 +743,6 @@ install_GUID_CMAKE:INTERNAL=F1458F4EA8320CC2546796DB
 tmxlite_GUID_CMAKE:INTERNAL=2D2690A5A3F0CDCBBD56C9B3
 //Stored Xcode object GUID
 uninstall_GUID_CMAKE:INTERNAL=6D2BA34DD4CF182EC0135D19
-//Stored Xcode object GUID
-unit_GUID_CMAKE:INTERNAL=1004E38D7D182DB4367C836D
 //Stored Xcode object GUID
 update_mappings_GUID_CMAKE:INTERNAL=289B72905A56BC7524250565
 

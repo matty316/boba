@@ -50,11 +50,6 @@ dependencies: \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/MakeVerboseFormat.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/BaseProcess.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/GenericProperty.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/glTF2/glTF2AssetWriter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/glTF2/glTF2AssetWriter.inl \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/writer.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/internal/dtoa.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/prettywriter.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/CreateAnimMesh.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringComparison.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \

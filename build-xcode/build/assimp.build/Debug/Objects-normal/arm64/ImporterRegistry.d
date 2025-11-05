@@ -2,104 +2,6 @@ dependencies: \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/ImporterRegistry.cpp \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/anim.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/X/XFileImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/X/XFileHelper.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/quaternion.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/AMF/AMFImporter.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/AMF/AMFImporter_Node.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/XmlParser.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringUtils.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOStream.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/pugixml/src/pugixml.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/pugixml/src/pugiconfig.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/importerdesc.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3DS/3DSLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3DS/3DSHelper.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/SmoothingGroups.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/SpatialSort.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/camera.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/light.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/material.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/qnan.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/pushpack1.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/poppack1.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StreamReader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MD3/MD3Loader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MD3/MD3FileData.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ByteSwapper.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringComparison.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/MDLLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/MDLFileData.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/HMP/HalfLifeFileData.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/HL1ImportSettings.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MD2/MD2Loader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MD2/MD2FileData.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Ply/PlyLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Ply/PlyParser.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ParsingUtils.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOStreamBuffer.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/ASE/ASELoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/ASE/ASEParser.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Obj/ObjFileImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/HMP/HMPLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/HMP/HMPFileData.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/SMD/SMDLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/texture.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDC/MDCLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDC/MDCFileData.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MD5/MD5Loader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MD5/MD5Parser.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/STL/STLLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/LWO/LWOLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/LWO/LWOFileData.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/LWO/LWOAnimation.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/IFF.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/DXF/DXFLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/NFF/NFFLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Raw/RawLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/SIB/SIBImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/OFF/OFFLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/AC/ACLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/BVH/BVHLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Irr/IRRMeshLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Irr/IRRShared.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Irr/IRRLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Importer.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/matrix4x4.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/SceneCombiner.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Q3D/Q3DLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/B3D/B3DImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Collada/ColladaLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Collada/ColladaParser.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Collada/ColladaHelper.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Terragen/TerragenLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/CSM/CSMLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Unreal/UnrealLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/LWS/LWSLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Ogre/OgreImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Ogre/OgreParsingUtils.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Ogre/OgreStructs.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/MemoryIOWrapper.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/OpenGEX/OpenGEXImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MS3D/MS3DLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/COB/COBLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Blender/BlenderLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/LogAux.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Q3BSP/Q3BSPFileImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/NDO/NDOLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/vector3.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/IFC/IFCLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/XGL/XGLLoader.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Importer.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXImportSettings.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Assbin/AssbinLoader.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/glTF/glTFImporter.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultIOSystem.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/glTF2/glTF2Importer.h \
@@ -135,15 +37,15 @@ dependencies: \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/internal/itoa.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/stringbuffer.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/internal/regex.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ByteSwapper.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/material.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/GltfMaterial.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/glTFCommon/glTFCommon.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/pushpack1.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/poppack1.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/glTF2/glTF2Asset.inl \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/MemoryIOWrapper.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Base64.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3MF/D3MFImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/X3D/X3DImporter.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/X3D/X3DImporter_Node.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ProgressHandler.hpp \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MMD/MMDImporter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MMD/MMDPmxParser.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MMD/MMDCpp14.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/IQM/IQMImporter.h
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h

@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		289B72905A56BC7524250565 /* update_mappings */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C860474B5AF14C39A40CDC87 /* Build configuration list for PBXAggregateTarget "update_mappings" */;
+			buildConfigurationList = 01446CD3E9524FCFA5E8D66D /* Build configuration list for PBXAggregateTarget "update_mappings" */;
 			buildPhases = (
 				7FAF89DA9B3DF9DE1F71DD4F /* Generate src/CMakeFiles/update_mappings */,
 			);
@@ -20,32 +20,32 @@
 		};
 		6D2BA34DD4CF182EC0135D19 /* uninstall */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = BC7CFF92504E439297B7F77B /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildConfigurationList = E46A152F9CA64760A6E4F812 /* Build configuration list for PBXAggregateTarget "uninstall" */;
 			buildPhases = (
 				2EDA69DB8231CAD3766FB9F1 /* Generate CMakeFiles/uninstall */,
 			);
 			dependencies = (
-				68D32BD498D74FB5907C3855 /* PBXTargetDependency */,
+				21ED173FB0D34335B9D60E73 /* PBXTargetDependency */,
 			);
 			name = uninstall;
 			productName = uninstall;
 		};
 		CAABC57AD714E87C7BB4008D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 525D49C7C9454D1898C33D09 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 9E0E3D63AEFA4262A0A0D67C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				09D10A2A894E7480E4B1A314 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				B50B447829B34906B2EE9219 /* PBXTargetDependency */,
-				22C21527DB1C45D198DD0CD3 /* PBXTargetDependency */,
+				A601DD61C27A4A1A89892A18 /* PBXTargetDependency */,
+				C8BF8C565ED648788F97ACB5 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 36D7CD00D44840D8B5F50EB7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 79E28A1D38894394B769442C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				26995D502B129B13CCCA045C /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -56,12 +56,12 @@
 		};
 		F1458F4EA8320CC2546796DB /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C9205842580745EFA2EFF2C5 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = DC54AF18A59642EEB13D0135 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				2BEE2E76180D498E911965D8 /* PBXTargetDependency */,
+				17DF4DFC4D794800A326940D /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
@@ -69,147 +69,147 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0582AEE298A947AABE73F8DA /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = DE0E2F05A3684EE9B8E52333 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3.h */; };
-		1E659689FF8E4EE68FB171C9 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */ = {isa = PBXBuildFile; fileRef = 72AF80D9810A4D64BA25B3B2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */; };
-		2AA6C34EAD734080BB20DE91 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */ = {isa = PBXBuildFile; fileRef = 86FF9EA6475D4B3781883E52 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */; };
-		351F33FB6F264B9595447355 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 457C3C269D00471AAB34E31B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */; };
-		3EF856DBD4494A85827C7976 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 989ED31890F7436989B25715 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */; };
-		434DE26F69B040C7A35DDD60 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.h */ = {isa = PBXBuildFile; fileRef = 28F00B7AD84142B8860104E8 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.h */; };
-		477E0D66E1264323B31251CA /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 0AC8AB1E0B7B4FF48D7D26DD /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */; };
-		6ADC63CD47AA430FBA7FE41C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 1546EE4E321C483CB9E6AAF3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */; };
-		6D76D7F143ED4CEE9A1D7358 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 1C02A08F66934D5C865FBECB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */; };
-		6F100A0BCE8C4698AA3471A3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = B0D38E1CAD87481FAFA5BE7E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */; };
-		79C06C8D888446E6B1A73F9C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = BA10692D11BB45AEB97938FB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */; };
-		7BCA1A1977CF49ED979B42D8 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 18076DDFC99840B1A5A07B70 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_platform.h */; };
-		86C5AC1E99DA4407AD5A884D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.h */ = {isa = PBXBuildFile; fileRef = 80CD7A55D8DA4D5BB6904BBB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.h */; };
-		86E466A623534197BBF0B86B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = D4700EBB7BDA4F1D84CE8E72 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.h */; };
-		8ABDFE35C1644E65941E0320 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 340C3E5470E341C5B8E92D6F /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h */; };
-		8B26E819CF7F4FF6BDE30356 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 2B15A78CD60D45D884FEBA1D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */; };
-		9457F89F309B4D05894A4023 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 27F92B6F992C4B1B8E94AF2D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */; };
-		9FCCB4B98F0E46C088F36606 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_platform.h */ = {isa = PBXBuildFile; fileRef = 0821A7A62AD04D798AEA53F3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_platform.h */; };
-		A2B9FF447CC24B6EBF54FDB5 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 4E63973005324D05A5EC5725 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */; };
-		A445B581D1304F8DBEECDBED /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 7621D47147244C10BF179B2C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */; };
-		AA3D880F64424AD1AB47D7AC /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = F04881B557B54ACFB40126A9 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */; };
-		AB00E0184DAA4EA781F220A3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */ = {isa = PBXBuildFile; fileRef = 450F3447D8534844882AE516 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */; };
-		C678C9AA38EB4CF483CC7E2E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 29ECA4377CD4431996D3073B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */; };
-		CD3CD0183D994FEB8972F32C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 74E2B938DA2A4CCB86DD9078 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */; };
-		D309F30B95114478BF5982CB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = C19677DCC4FB49D7A5763F25 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */; };
-		D92529C08CA740B3A61DF9B2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.h */ = {isa = PBXBuildFile; fileRef = 16A21A36BE5C4F299FDD86D3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.h */; };
-		DCE05957DEC04CAB898A73E2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = C111DA593BB94709B30BD1F2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/internal.h */; };
-		DE0D39F6E49E4FAFA9F44F08 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 3770035AF1E44BDE81437DA5 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3native.h */; };
-		E0516C8CEDB648D98A3ED45E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */ = {isa = PBXBuildFile; fileRef = B357B7948E5243B0ACC2E43D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */; };
-		E6CE4B6A53C745AEAE8EF880 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */ = {isa = PBXBuildFile; fileRef = 10A263CB19E24865A8FF4B4B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */; };
-		F864A8B1E84B431EA3F5D1CC /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 3D9C0E99253844EBAD44556D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.h */; };
-		FA7921AA4D9647F188095780 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */ = {isa = PBXBuildFile; fileRef = 346A3998F4884CCC89578355 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */; };
-		FBE2B06A806C4037966DD510 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 39456E1589A8427FB94F2053 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */; };
+		0F089A76A5CE47009ECC233E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = A319219EB093464580CAB627 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */; };
+		1149C1B394FD4647A10204D2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = C6C9B504A3744FDAA7B2D01B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */; };
+		153F6D47B12A4B69860961F5 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = F2CDF22875E843B884F5CC1B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */; };
+		19397A6627B74486858DACEE /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_platform.h */ = {isa = PBXBuildFile; fileRef = 223641764C01432EBB049536 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_platform.h */; };
+		243837367C7146E28362F7A9 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.h */ = {isa = PBXBuildFile; fileRef = A83B5E759A954D2D9DBA0872 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.h */; };
+		24A43A6CF39643CBACA134C8 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = DF1F3E1FF19343169A66AC3D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */; };
+		31B941876E874A2C94969ECA /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 0575156A48AF4257891DFF15 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */; };
+		3A4DB15990B840F0BB032619 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = CCE2301DBB0049A8BD5BFBC3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */; };
+		3DCC284EE3C3494D92312D61 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = D9A19515FEAF4E048A982E51 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */; };
+		5164536400EB46D9A7457199 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 79620EFCD6E74E048087B158 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */; };
+		5B9931AC074A43AF9A6A2BA1 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 5DFBA775527C48989C285E2E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3native.h */; };
+		5C938EA5D807473D8C5975A4 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = B515884BB1524853B557EDB4 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h */; };
+		690A6317B30043568341AD99 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = D0ECFFB5EF324BADBA333732 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */; };
+		6D98FE35D79C49219F4AB3FB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AF1CA105FF3D4989A6661031 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */; };
+		6DEC67C396E140C1A2560895 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */ = {isa = PBXBuildFile; fileRef = 6571A73EB5F44E5384EF1697 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */; };
+		7137D49535D845BEAB6D932C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */ = {isa = PBXBuildFile; fileRef = 1A62161644C94827B532CEFE /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */; };
+		83C0C927C1574714AF35A3F1 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 64D5505999624E9B942324DE /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_platform.h */; };
+		853B013D72B14FFF9D814762 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 6A6E8298E7A6443E8C0D4261 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3.h */; };
+		8A0561961F134BF088C0C59F /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 4AAF0F5C42544CFB9AE571D8 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.h */; };
+		9CB2BBF513F145309BCF3518 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = B490279980064168A98EB168 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/internal.h */; };
+		9F0276A3A41841AE9FB15B34 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */ = {isa = PBXBuildFile; fileRef = 587CC38393C94CC5898B4D30 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */; };
+		A64B21504101490CB60B1280 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 0D0102FA422646ADBF54FC80 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */; };
+		A72C08D3E4A044C2B74619E4 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */ = {isa = PBXBuildFile; fileRef = F8EE57B0E77E4774971118CB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */; };
+		AA1C7F29BA40408C8CCABE73 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 257A83CB46EA41ACB5B869E7 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */; };
+		B1F07822F4AD460EBBC961B2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */ = {isa = PBXBuildFile; fileRef = 3D05677C07114B259D49DB96 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */; };
+		B756AF5C412D4BA7A3667BB9 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 74CFCB6A38FF438EA9CF8EE1 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */; };
+		C02372EF42544F91BEB4D337 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 5C036492CB0F418E8A438B0C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */; };
+		E8FDB69DD8E9456C8921E915 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.h */ = {isa = PBXBuildFile; fileRef = 1CC09486E3794322ADB2D0AA /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.h */; };
+		ED910D6A369A44E8AB6A035D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 7D92E18BA4C54C3EADDBE548 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */; };
+		EF5C00780F934F88A7CF354B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */ = {isa = PBXBuildFile; fileRef = D9F75E91621A45FA9F137E90 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */; };
+		F66FB1A184464D9CAF8B213C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = F4E7691F2EBE4FF9904CB198 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.h */; };
+		F9BC11D4765C4E23B4CA546D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.h */ = {isa = PBXBuildFile; fileRef = A4908240E13744078D44247F /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.h */; };
+		FCE257A012AA46A1BDA9E379 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 4E71D1CB8A854F319BB270F2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		06F3C65C05D545BE9CE5F53F /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		28C9A95E088046BB9BDE63E3 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		D8D088D1B45E437FBA140EC6 /* Release */ = {
+		4926D3825DD84B979DCBC5B0 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		E894FCCA9C814559A1A537AB /* Debug */ = {
+		4B7A82B4630A4F6BABA80738 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		997CEA5D45104005872F1145 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		DF44E8049E404C2C909ED8CB /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		0396F879B7074559BC9F715E /* PBXContainerItemProxy */ = {
+		30683F0746964F3BA0F219E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 92F721D50EF844B2A4B827AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E00DE3F71F569CA7A015F1EA;
-			remoteInfo = ZERO_CHECK;
-		};
-		50D808824C5C4F288F51E9C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92F721D50EF844B2A4B827AF /* Project object */;
+			containerPortal = 34D13817BE184D818DCCCFA4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BBBF7D44CA331C1E3E2A4C14;
 			remoteInfo = glfw;
 		};
-		9E81B87BA8994CF6A111E720 /* PBXContainerItemProxy */ = {
+		7515ED657E9445C0AE74B960 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 92F721D50EF844B2A4B827AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAABC57AD714E87C7BB4008D;
-			remoteInfo = ALL_BUILD;
-		};
-		AA963011374B4A488CB75144 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92F721D50EF844B2A4B827AF /* Project object */;
+			containerPortal = 34D13817BE184D818DCCCFA4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E00DE3F71F569CA7A015F1EA;
 			remoteInfo = ZERO_CHECK;
 		};
+		A10678DFB8BC488CBADE2727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D13817BE184D818DCCCFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00DE3F71F569CA7A015F1EA;
+			remoteInfo = ZERO_CHECK;
+		};
+		E093F614ED864A1FB74A3605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D13817BE184D818DCCCFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAABC57AD714E87C7BB4008D;
+			remoteInfo = ALL_BUILD;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0821A7A62AD04D798AEA53F3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_platform.h; path = src/null_platform.h; sourceTree = SOURCE_ROOT; };
-		0AC8AB1E0B7B4FF48D7D26DD /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		10A263CB19E24865A8FF4B4B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = platform.c; path = src/platform.c; sourceTree = SOURCE_ROOT; };
-		1546EE4E321C483CB9E6AAF3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		16A21A36BE5C4F299FDD86D3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = src/platform.h; sourceTree = SOURCE_ROOT; };
-		18076DDFC99840B1A5A07B70 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		1C02A08F66934D5C865FBECB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
-		27F92B6F992C4B1B8E94AF2D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		28F00B7AD84142B8860104E8 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_joystick.h; path = src/null_joystick.h; sourceTree = SOURCE_ROOT; };
-		29ECA4377CD4431996D3073B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		2B15A78CD60D45D884FEBA1D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		340C3E5470E341C5B8E92D6F /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
-		346A3998F4884CCC89578355 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_init.c; path = src/null_init.c; sourceTree = SOURCE_ROOT; };
-		3770035AF1E44BDE81437DA5 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		39456E1589A8427FB94F2053 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		3D9C0E99253844EBAD44556D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
-		40C699D821114092A43C5D7B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		450F3447D8534844882AE516 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_module.c; path = src/posix_module.c; sourceTree = SOURCE_ROOT; };
-		457C3C269D00471AAB34E31B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		4E63973005324D05A5EC5725 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		57D552C605C8444E873CCE0B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = mappings.h.in; path = src/mappings.h.in; sourceTree = SOURCE_ROOT; };
-		72AF80D9810A4D64BA25B3B2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_joystick.c; path = src/null_joystick.c; sourceTree = SOURCE_ROOT; };
-		74E2B938DA2A4CCB86DD9078 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
-		7621D47147244C10BF179B2C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		80CD7A55D8DA4D5BB6904BBB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_time.h; path = src/cocoa_time.h; sourceTree = SOURCE_ROOT; };
-		86FF9EA6475D4B3781883E52 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_window.c; path = src/null_window.c; sourceTree = SOURCE_ROOT; };
-		989ED31890F7436989B25715 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		B0D38E1CAD87481FAFA5BE7E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		B357B7948E5243B0ACC2E43D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_monitor.c; path = src/null_monitor.c; sourceTree = SOURCE_ROOT; };
-		BA10692D11BB45AEB97938FB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		C111DA593BB94709B30BD1F2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		C19677DCC4FB49D7A5763F25 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
-		C6BE5AB6A2AE47F0AA0A7188 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C8A59AB9161C4F4088B668A0 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D4700EBB7BDA4F1D84CE8E72 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		DA73E4C23DEA4BBD9D5D1AC5 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3d.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE0E2F05A3684EE9B8E52333 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		F04881B557B54ACFB40126A9 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		FE1DCA9EF1514F0980313F45 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = GenerateMappings.cmake; path = CMake/GenerateMappings.cmake; sourceTree = SOURCE_ROOT; };
+		0575156A48AF4257891DFF15 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		0D0102FA422646ADBF54FC80 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		1A62161644C94827B532CEFE /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_monitor.c; path = src/null_monitor.c; sourceTree = SOURCE_ROOT; };
+		1CC09486E3794322ADB2D0AA /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = src/platform.h; sourceTree = SOURCE_ROOT; };
+		223641764C01432EBB049536 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_platform.h; path = src/null_platform.h; sourceTree = SOURCE_ROOT; };
+		257A83CB46EA41ACB5B869E7 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		3817FC88B7954B2AAD7C9C7C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3D05677C07114B259D49DB96 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = platform.c; path = src/platform.c; sourceTree = SOURCE_ROOT; };
+		4AAF0F5C42544CFB9AE571D8 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		4E71D1CB8A854F319BB270F2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		54A5BBBB14FC43C8A75C892C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = mappings.h.in; path = src/mappings.h.in; sourceTree = SOURCE_ROOT; };
+		587CC38393C94CC5898B4D30 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_window.c; path = src/null_window.c; sourceTree = SOURCE_ROOT; };
+		5C036492CB0F418E8A438B0C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		5DFBA775527C48989C285E2E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		64D5505999624E9B942324DE /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		6571A73EB5F44E5384EF1697 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_init.c; path = src/null_init.c; sourceTree = SOURCE_ROOT; };
+		6A6E8298E7A6443E8C0D4261 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		74CFCB6A38FF438EA9CF8EE1 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		79620EFCD6E74E048087B158 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		7D92E18BA4C54C3EADDBE548 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		9B61CC0D7FDE4B71965A25B8 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A319219EB093464580CAB627 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		A4908240E13744078D44247F /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_joystick.h; path = src/null_joystick.h; sourceTree = SOURCE_ROOT; };
+		A83B5E759A954D2D9DBA0872 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_time.h; path = src/cocoa_time.h; sourceTree = SOURCE_ROOT; };
+		AF1CA105FF3D4989A6661031 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B490279980064168A98EB168 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		B515884BB1524853B557EDB4 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		C320DB36587545258FE42058 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C411D37915B84AD5A9467082 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = GenerateMappings.cmake; path = CMake/GenerateMappings.cmake; sourceTree = SOURCE_ROOT; };
+		C6C9B504A3744FDAA7B2D01B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		CCE2301DBB0049A8BD5BFBC3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		D0ECFFB5EF324BADBA333732 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		D9A19515FEAF4E048A982E51 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		D9F75E91621A45FA9F137E90 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_module.c; path = src/posix_module.c; sourceTree = SOURCE_ROOT; };
+		DF1F3E1FF19343169A66AC3D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		E7342A47FFE444EEB510D5DE /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F2CDF22875E843B884F5CC1B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		F4E7691F2EBE4FF9904CB198 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		F8EE57B0E77E4774971118CB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_joystick.c; path = src/null_joystick.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC27ADFA6F654071B61A1F59 /* Frameworks */ = {
+		0D1EF8BC77524E38AED5A3E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,161 +219,161 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1361268213D0468B80E0EA9D /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE0E2F05A3684EE9B8E52333 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3.h */,
-				3770035AF1E44BDE81437DA5 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3native.h */,
-				D4700EBB7BDA4F1D84CE8E72 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.h */,
-				18076DDFC99840B1A5A07B70 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_platform.h */,
-				80CD7A55D8DA4D5BB6904BBB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.h */,
-				C111DA593BB94709B30BD1F2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/internal.h */,
-				340C3E5470E341C5B8E92D6F /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h */,
-				28F00B7AD84142B8860104E8 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.h */,
-				0821A7A62AD04D798AEA53F3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_platform.h */,
-				16A21A36BE5C4F299FDD86D3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.h */,
-				3D9C0E99253844EBAD44556D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		1F474D3436F343BCAA8FC30E /* CMake Rules */ = {
+		0885932344D24132BDDF31A2 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		1F47FBB9733D4EDDA9DBF6C7 = {
-			isa = PBXGroup;
-			children = (
-				F50FBA095A314431B39A1582 /* GLFW3 */,
-				B49518BA1AD5436C88DAB1C2 /* ALL_BUILD */,
-				3F2AD5259F2647A8B889FD29 /* Products */,
-				36A607226978449F9EA49697 /* Frameworks */,
-				EBB594C2C5FC422D8F4534BD /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		2DA56E95F1AA41619BD4ADC2 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				57D552C605C8444E873CCE0B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h.in */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		36A607226978449F9EA49697 /* Frameworks */ = {
+		17E533F2D5DC4E6786FA84E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		37EB5623B08D41AB9321F3DA /* update_mappings */ = {
+		1C4781B4AC0E459DB530B47D /* uninstall */ = {
 			isa = PBXGroup;
 			children = (
-				2DA56E95F1AA41619BD4ADC2 /* Header Files */,
-				F4899448B5654F3CA861360E /* CMake Rules */,
-				FE1DCA9EF1514F0980313F45 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMake/GenerateMappings.cmake */,
-				C8A59AB9161C4F4088B668A0 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */,
+				C130931F0CCE45819B2B9AAD /* CMake Rules */,
+				E7342A47FFE444EEB510D5DE /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMakeLists.txt */,
 			);
-			name = update_mappings;
+			name = uninstall;
 			sourceTree = "<group>";
 		};
-		3F2AD5259F2647A8B889FD29 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DA73E4C23DEA4BBD9D5D1AC5 /* glfw */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9593007682664C2A949F52BA /* CMake Rules */ = {
+		222E3CCC2545409D96ECEAB5 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		9E1B961F94BB4B2D9B874F6B /* Source Files */ = {
+		2EF400BD1DB94EE59D2AF82E /* update_mappings */ = {
 			isa = PBXGroup;
 			children = (
-				F04881B557B54ACFB40126A9 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */,
-				989ED31890F7436989B25715 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */,
-				29ECA4377CD4431996D3073B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */,
-				1546EE4E321C483CB9E6AAF3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */,
-				BA10692D11BB45AEB97938FB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */,
-				39456E1589A8427FB94F2053 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */,
-				1C02A08F66934D5C865FBECB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */,
-				4E63973005324D05A5EC5725 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */,
-				B0D38E1CAD87481FAFA5BE7E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */,
-				457C3C269D00471AAB34E31B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */,
-				7621D47147244C10BF179B2C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */,
-				346A3998F4884CCC89578355 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */,
-				72AF80D9810A4D64BA25B3B2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */,
-				B357B7948E5243B0ACC2E43D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */,
-				86FF9EA6475D4B3781883E52 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */,
-				74E2B938DA2A4CCB86DD9078 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */,
-				10A263CB19E24865A8FF4B4B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */,
-				450F3447D8534844882AE516 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */,
-				C19677DCC4FB49D7A5763F25 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */,
-				2B15A78CD60D45D884FEBA1D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */,
-				0AC8AB1E0B7B4FF48D7D26DD /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */,
+				4C20B3D681774A2CA576748D /* Header Files */,
+				222E3CCC2545409D96ECEAB5 /* CMake Rules */,
+				C411D37915B84AD5A9467082 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMake/GenerateMappings.cmake */,
+				C320DB36587545258FE42058 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */,
 			);
-			name = "Source Files";
+			name = update_mappings;
 			sourceTree = "<group>";
 		};
-		A8076B44B356457DB2F45CE4 /* glfw */ = {
-			isa = PBXGroup;
-			children = (
-				1361268213D0468B80E0EA9D /* Header Files */,
-				9E1B961F94BB4B2D9B874F6B /* Source Files */,
-				27F92B6F992C4B1B8E94AF2D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */,
-			);
-			name = glfw;
-			sourceTree = "<group>";
-		};
-		B49518BA1AD5436C88DAB1C2 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				9593007682664C2A949F52BA /* CMake Rules */,
-				C6BE5AB6A2AE47F0AA0A7188 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		CD452F06EC4E4A4CA47073C4 /* uninstall */ = {
-			isa = PBXGroup;
-			children = (
-				1F474D3436F343BCAA8FC30E /* CMake Rules */,
-				40C699D821114092A43C5D7B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMakeLists.txt */,
-			);
-			name = uninstall;
-			sourceTree = "<group>";
-		};
-		EBB594C2C5FC422D8F4534BD /* Resources */ = {
+		2FCC186DBAA84C77A945AA32 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		F4899448B5654F3CA861360E /* CMake Rules */ = {
+		4C20B3D681774A2CA576748D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				54A5BBBB14FC43C8A75C892C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h.in */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5B4853BD8A9A44F194659431 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E8298E7A6443E8C0D4261 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3.h */,
+				5DFBA775527C48989C285E2E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/include/GLFW/glfw3native.h */,
+				F4E7691F2EBE4FF9904CB198 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.h */,
+				64D5505999624E9B942324DE /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_platform.h */,
+				A83B5E759A954D2D9DBA0872 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.h */,
+				B490279980064168A98EB168 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/internal.h */,
+				B515884BB1524853B557EDB4 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/mappings.h */,
+				A4908240E13744078D44247F /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.h */,
+				223641764C01432EBB049536 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_platform.h */,
+				1CC09486E3794322ADB2D0AA /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.h */,
+				4AAF0F5C42544CFB9AE571D8 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7D2AD5417BBB4A25B24CF3D9 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				1C4781B4AC0E459DB530B47D /* uninstall */,
+				F3F864D293FB4F3A99D67F09 /* glfw */,
+				2EF400BD1DB94EE59D2AF82E /* update_mappings */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		85555900A050430D8F4881D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B61CC0D7FDE4B71965A25B8 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C130931F0CCE45819B2B9AAD /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		F50FBA095A314431B39A1582 /* GLFW3 */ = {
+		D8030E39080B48ECA4E941B2 = {
 			isa = PBXGroup;
 			children = (
-				CD452F06EC4E4A4CA47073C4 /* uninstall */,
-				A8076B44B356457DB2F45CE4 /* glfw */,
-				37EB5623B08D41AB9321F3DA /* update_mappings */,
+				7D2AD5417BBB4A25B24CF3D9 /* GLFW3 */,
+				FDA7AD0DC47A42E3AB735537 /* ALL_BUILD */,
+				85555900A050430D8F4881D3 /* Products */,
+				17E533F2D5DC4E6786FA84E7 /* Frameworks */,
+				2FCC186DBAA84C77A945AA32 /* Resources */,
 			);
-			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		DBE515E850D3492BB22E4EFF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				257A83CB46EA41ACB5B869E7 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */,
+				D9A19515FEAF4E048A982E51 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */,
+				CCE2301DBB0049A8BD5BFBC3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */,
+				4E71D1CB8A854F319BB270F2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */,
+				0D0102FA422646ADBF54FC80 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */,
+				DF1F3E1FF19343169A66AC3D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */,
+				D0ECFFB5EF324BADBA333732 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */,
+				7D92E18BA4C54C3EADDBE548 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */,
+				74CFCB6A38FF438EA9CF8EE1 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */,
+				5C036492CB0F418E8A438B0C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */,
+				79620EFCD6E74E048087B158 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */,
+				6571A73EB5F44E5384EF1697 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */,
+				F8EE57B0E77E4774971118CB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */,
+				1A62161644C94827B532CEFE /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */,
+				587CC38393C94CC5898B4D30 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */,
+				0575156A48AF4257891DFF15 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */,
+				3D05677C07114B259D49DB96 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */,
+				D9F75E91621A45FA9F137E90 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */,
+				F2CDF22875E843B884F5CC1B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */,
+				A319219EB093464580CAB627 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */,
+				C6C9B504A3744FDAA7B2D01B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F3F864D293FB4F3A99D67F09 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				5B4853BD8A9A44F194659431 /* Header Files */,
+				DBE515E850D3492BB22E4EFF /* Source Files */,
+				AF1CA105FF3D4989A6661031 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		FDA7AD0DC47A42E3AB735537 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0885932344D24132BDDF31A2 /* CMake Rules */,
+				3817FC88B7954B2AAD7C9C7C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,10 +381,10 @@
 /* Begin PBXNativeTarget section */
 		BBBF7D44CA331C1E3E2A4C14 /* glfw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 952544648D0345288AD0BA9D /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildConfigurationList = 2AA6A96DE2394D1AB05CF3AB /* Build configuration list for PBXNativeTarget "glfw" */;
 			buildPhases = (
-				FF0D585059BE4082B3F0A898 /* Sources */,
-				BC27ADFA6F654071B61A1F59 /* Frameworks */,
+				9B006142C7EA41EFA1B21AF7 /* Sources */,
+				0D1EF8BC77524E38AED5A3E0 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -392,30 +392,30 @@
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = DA73E4C23DEA4BBD9D5D1AC5 /* glfw */;
+			productReference = 9B61CC0D7FDE4B71965A25B8 /* glfw */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		92F721D50EF844B2A4B827AF /* Project object */ = {
+		34D13817BE184D818DCCCFA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 2600;
 			};
-			buildConfigurationList = 55755B43AE56486B9E7855CB /* Build configuration list for PBXProject "GLFW" */;
+			buildConfigurationList = 1C13512A9F1F4EACAF916BE8 /* Build configuration list for PBXProject "GLFW" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				E894FCCA9C814559A1A537AB /* Debug */,
-				D8D088D1B45E437FBA140EC6 /* Release */,
-				06F3C65C05D545BE9CE5F53F /* MinSizeRel */,
-				28C9A95E088046BB9BDE63E3 /* RelWithDebInfo */,
+				4B7A82B4630A4F6BABA80738 /* Debug */,
+				4926D3825DD84B979DCBC5B0 /* Release */,
+				997CEA5D45104005872F1145 /* MinSizeRel */,
+				DF44E8049E404C2C909ED8CB /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 1F47FBB9733D4EDDA9DBF6C7;
+			mainGroup = D8030E39080B48ECA4E941B2;
 			projectDirPath = /Users/matty/projects/boba/bulkin/thirdParty/glfw;
 			projectRoot = "";
 			targets = (
@@ -673,61 +673,61 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF0D585059BE4082B3F0A898 /* Sources */ = {
+		9B006142C7EA41EFA1B21AF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3D880F64424AD1AB47D7AC /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */,
-				3EF856DBD4494A85827C7976 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */,
-				C678C9AA38EB4CF483CC7E2E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */,
-				6ADC63CD47AA430FBA7FE41C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */,
-				79C06C8D888446E6B1A73F9C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */,
-				FBE2B06A806C4037966DD510 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */,
-				6D76D7F143ED4CEE9A1D7358 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */,
-				A2B9FF447CC24B6EBF54FDB5 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */,
-				6F100A0BCE8C4698AA3471A3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */,
-				351F33FB6F264B9595447355 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */,
-				A445B581D1304F8DBEECDBED /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */,
-				FA7921AA4D9647F188095780 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */,
-				1E659689FF8E4EE68FB171C9 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */,
-				E0516C8CEDB648D98A3ED45E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */,
-				2AA6C34EAD734080BB20DE91 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */,
-				CD3CD0183D994FEB8972F32C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */,
-				E6CE4B6A53C745AEAE8EF880 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */,
-				AB00E0184DAA4EA781F220A3 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */,
-				D309F30B95114478BF5982CB /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */,
-				8B26E819CF7F4FF6BDE30356 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */,
-				477E0D66E1264323B31251CA /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */,
+				AA1C7F29BA40408C8CCABE73 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_init.m */,
+				3DCC284EE3C3494D92312D61 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_joystick.m */,
+				3A4DB15990B840F0BB032619 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_monitor.m */,
+				FCE257A012AA46A1BDA9E379 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_time.c */,
+				A64B21504101490CB60B1280 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/cocoa_window.m */,
+				24A43A6CF39643CBACA134C8 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/context.c */,
+				690A6317B30043568341AD99 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/egl_context.c */,
+				ED910D6A369A44E8AB6A035D /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/init.c */,
+				B756AF5C412D4BA7A3667BB9 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/input.c */,
+				C02372EF42544F91BEB4D337 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/monitor.c */,
+				5164536400EB46D9A7457199 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/nsgl_context.m */,
+				6DEC67C396E140C1A2560895 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_init.c */,
+				A72C08D3E4A044C2B74619E4 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_joystick.c */,
+				7137D49535D845BEAB6D932C /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_monitor.c */,
+				9F0276A3A41841AE9FB15B34 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/null_window.c */,
+				31B941876E874A2C94969ECA /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/osmesa_context.c */,
+				B1F07822F4AD460EBBC961B2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/platform.c */,
+				EF5C00780F934F88A7CF354B /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_module.c */,
+				153F6D47B12A4B69860961F5 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/posix_thread.c */,
+				0F089A76A5CE47009ECC233E /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/vulkan.c */,
+				1149C1B394FD4647A10204D2 /* /Users/matty/projects/boba/bulkin/thirdParty/glfw/src/window.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22C21527DB1C45D198DD0CD3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */;
-			targetProxy = AA963011374B4A488CB75144 /* PBXContainerItemProxy */;
-		};
-		2BEE2E76180D498E911965D8 /* PBXTargetDependency */ = {
+		17DF4DFC4D794800A326940D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CAABC57AD714E87C7BB4008D /* ALL_BUILD */;
-			targetProxy = 9E81B87BA8994CF6A111E720 /* PBXContainerItemProxy */;
+			targetProxy = E093F614ED864A1FB74A3605 /* PBXContainerItemProxy */;
 		};
-		68D32BD498D74FB5907C3855 /* PBXTargetDependency */ = {
+		21ED173FB0D34335B9D60E73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */;
-			targetProxy = 0396F879B7074559BC9F715E /* PBXContainerItemProxy */;
+			targetProxy = 7515ED657E9445C0AE74B960 /* PBXContainerItemProxy */;
 		};
-		B50B447829B34906B2EE9219 /* PBXTargetDependency */ = {
+		A601DD61C27A4A1A89892A18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BBBF7D44CA331C1E3E2A4C14 /* glfw */;
-			targetProxy = 50D808824C5C4F288F51E9C1 /* PBXContainerItemProxy */;
+			targetProxy = 30683F0746964F3BA0F219E4 /* PBXContainerItemProxy */;
+		};
+		C8BF8C565ED648788F97ACB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */;
+			targetProxy = A10678DFB8BC488CBADE2727 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04C6CEDA8DBE467D9974AAE7 /* MinSizeRel */ = {
+		1CB332CE1CF04630BB40AF56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -742,87 +742,24 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		0AD3E137D23C487F84DAE82B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		0C6D32B72CF545C1A9C7BC82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src/Debug";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/glfw/include,/Users/matty/projects/boba/bulkin/thirdParty/glfw/src,"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("   '-std=c99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3d;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		138B0A917C76413CA295B8CD /* RelWithDebInfo */ = {
+		3CFC8E29B51540E1B3A2E330 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
 			};
-			name = RelWithDebInfo;
+			name = MinSizeRel;
 		};
-		2192ECFFB42D47CBB0821C4D /* Debug */ = {
+		4BD472B914E541229E161D81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -842,196 +779,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
-		};
-		231F5BFC14FA46469D6D343F /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src/RelWithDebInfo";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/glfw/include,/Users/matty/projects/boba/bulkin/thirdParty/glfw/src,"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("       -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3DED244D1C6649A4A3453071 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = Release;
 		};
-		422963978A5748E7A49519A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
-			};
-			name = Debug;
-		};
-		4C41B10E684643CE8D5F6085 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src/Release";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/glfw/include,/Users/matty/projects/boba/bulkin/thirdParty/glfw/src,"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		51E4A44B962C463B9D09D34C /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
-			};
-			name = MinSizeRel;
-		};
-		53F197E83E594A24B2141446 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		564B7733F25F4D10BA0E1468 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		570BC71969C5497599503180 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		612FCC3298CE4FEEA57EA628 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		8537AD87409C49E8946CA377 /* Release */ = {
+		4D50D2012A4E497691143073 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1051,75 +801,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
-		};
-		94F49A4D88AF4D98BE4A5AA1 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		975F75C7EBD447A695057D9E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = Debug;
 		};
-		A21CFF8503B84435BCFD1AC4 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		A676B94809F547E7A78BD6D0 /* MinSizeRel */ = {
+		6901A899F7F84501B8037400 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1148,7 +832,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		AA85ED98D5DD4F64A79E7966 /* RelWithDebInfo */ = {
+		6D0464B59F1347818CC5F2E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1163,112 +847,109 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		B6A79934908A47A58AFA62B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		B6BABC9B42C44F3994B0D71A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		C252CCF82DAD43A2A02C979E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
-			};
-			name = RelWithDebInfo;
-		};
-		E97D190BC923440AA695A6F5 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		EBEDE9425B9D432A8E0084BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		F6825B48DEE44670B32D3E8A /* Debug */ = {
+		7A98D85324104831AD35580F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/glfw/include,/Users/matty/projects/boba/bulkin/thirdParty/glfw/src,"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8C609E077880474FAD9F2F55 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8D248751C7774F62B6D9ECA3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8EE1EA0E412049F1B0F7972A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		920E1EAA2A204113873F7717 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1290,17 +971,51 @@ exit 0";
 			};
 			name = Debug;
 		};
-		FB349501AD394DEA821FB756 /* Release */ = {
+		93F1C8AC9C104018A7B493F8 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		95F00F4A23384232859DD2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		FED515DBBF4B415DA32260C3 /* MinSizeRel */ = {
+		97AA5CC54B2A4D00BDADABF6 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1322,87 +1037,372 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
+		995175366FDE466B99AC5262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9B47581A6E18488A89674CCF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9B89A0B50EF44115A1C5148E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		9EBF85F07CAF4059896C1906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A167587A3C0C4891954C6F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/glfw/include,/Users/matty/projects/boba/bulkin/thirdParty/glfw/src,"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A58E240F1DCC49A5BA0D83E4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A632955C44C04BEB9B532C40 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B0CB6DF38146483DA87959A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+			};
+			name = Release;
+		};
+		B964ACEB64274E929519CFC5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CBC544D9CC1E4E3EB49B4CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+			};
+			name = Debug;
+		};
+		D722299135484B8DAB0CE03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/glfw/include,/Users/matty/projects/boba/bulkin/thirdParty/glfw/src,"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E4A4BE8EC0294D2D92FC87A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FA071E9EF7D74EA28292B0B4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FF23F50EC11B45F58D820BF4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36D7CD00D44840D8B5F50EB7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		01446CD3E9524FCFA5E8D66D /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6BABC9B42C44F3994B0D71A /* Debug */,
-				8537AD87409C49E8946CA377 /* Release */,
-				94F49A4D88AF4D98BE4A5AA1 /* MinSizeRel */,
-				AA85ED98D5DD4F64A79E7966 /* RelWithDebInfo */,
+				9EBF85F07CAF4059896C1906 /* Debug */,
+				95F00F4A23384232859DD2BE /* Release */,
+				FF23F50EC11B45F58D820BF4 /* MinSizeRel */,
+				B964ACEB64274E929519CFC5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		525D49C7C9454D1898C33D09 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		1C13512A9F1F4EACAF916BE8 /* Build configuration list for PBXProject "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6A79934908A47A58AFA62B6 /* Debug */,
-				3DED244D1C6649A4A3453071 /* Release */,
-				53F197E83E594A24B2141446 /* MinSizeRel */,
-				612FCC3298CE4FEEA57EA628 /* RelWithDebInfo */,
+				CBC544D9CC1E4E3EB49B4CFD /* Debug */,
+				B0CB6DF38146483DA87959A0 /* Release */,
+				3CFC8E29B51540E1B3A2E330 /* MinSizeRel */,
+				9B89A0B50EF44115A1C5148E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		55755B43AE56486B9E7855CB /* Build configuration list for PBXProject "GLFW" */ = {
+		2AA6A96DE2394D1AB05CF3AB /* Build configuration list for PBXNativeTarget "glfw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				422963978A5748E7A49519A6 /* Debug */,
-				FB349501AD394DEA821FB756 /* Release */,
-				51E4A44B962C463B9D09D34C /* MinSizeRel */,
-				C252CCF82DAD43A2A02C979E /* RelWithDebInfo */,
+				D722299135484B8DAB0CE03B /* Debug */,
+				A167587A3C0C4891954C6F21 /* Release */,
+				6901A899F7F84501B8037400 /* MinSizeRel */,
+				7A98D85324104831AD35580F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		952544648D0345288AD0BA9D /* Build configuration list for PBXNativeTarget "glfw" */ = {
+		79E28A1D38894394B769442C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C6D32B72CF545C1A9C7BC82 /* Debug */,
-				4C41B10E684643CE8D5F6085 /* Release */,
-				A676B94809F547E7A78BD6D0 /* MinSizeRel */,
-				231F5BFC14FA46469D6D343F /* RelWithDebInfo */,
+				4D50D2012A4E497691143073 /* Debug */,
+				8EE1EA0E412049F1B0F7972A /* Release */,
+				FA071E9EF7D74EA28292B0B4 /* MinSizeRel */,
+				9B47581A6E18488A89674CCF /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BC7CFF92504E439297B7F77B /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+		9E0E3D63AEFA4262A0A0D67C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6825B48DEE44670B32D3E8A /* Debug */,
-				0AD3E137D23C487F84DAE82B /* Release */,
-				570BC71969C5497599503180 /* MinSizeRel */,
-				138B0A917C76413CA295B8CD /* RelWithDebInfo */,
+				1CB332CE1CF04630BB40AF56 /* Debug */,
+				E4A4BE8EC0294D2D92FC87A5 /* Release */,
+				93F1C8AC9C104018A7B493F8 /* MinSizeRel */,
+				A58E240F1DCC49A5BA0D83E4 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C860474B5AF14C39A40CDC87 /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
+		DC54AF18A59642EEB13D0135 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				975F75C7EBD447A695057D9E /* Debug */,
-				564B7733F25F4D10BA0E1468 /* Release */,
-				04C6CEDA8DBE467D9974AAE7 /* MinSizeRel */,
-				A21CFF8503B84435BCFD1AC4 /* RelWithDebInfo */,
+				995175366FDE466B99AC5262 /* Debug */,
+				4BD472B914E541229E161D81 /* Release */,
+				97AA5CC54B2A4D00BDADABF6 /* MinSizeRel */,
+				8D248751C7774F62B6D9ECA3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C9205842580745EFA2EFF2C5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		E46A152F9CA64760A6E4F812 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2192ECFFB42D47CBB0821C4D /* Debug */,
-				EBEDE9425B9D432A8E0084BB /* Release */,
-				FED515DBBF4B415DA32260C3 /* MinSizeRel */,
-				E97D190BC923440AA695A6F5 /* RelWithDebInfo */,
+				920E1EAA2A204113873F7717 /* Debug */,
+				6D0464B59F1347818CC5F2E8 /* Release */,
+				A632955C44C04BEB9B532C40 /* MinSizeRel */,
+				8C609E077880474FAD9F2F55 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 92F721D50EF844B2A4B827AF /* Project object */;
+	rootObject = 34D13817BE184D818DCCCFA4 /* Project object */;
 }

@@ -8,8 +8,6 @@
 		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/docs/cmake_install.cmake",
 		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/cmake_install.cmake",
 		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/code/cmake_install.cmake",
-		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/test/cmake_install.cmake",
-		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/test/headercheck/cmake_install.cmake",
 		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/cmake_install.cmake"
 	],
 	"Parallel" : false

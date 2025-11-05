@@ -9,20 +9,20 @@
 /* Begin PBXAggregateTarget section */
 		CAABC57AD714E87C7BB4008D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = DBE447DBE708481E98FF5055 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 2906A4C659A4427AB9FE4BFB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				BFA028C1A10226CA4A3A4CDA /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				C5A3ACA329A24BE4B82AC76A /* PBXTargetDependency */,
-				95BF943CA90A4930880B3C57 /* PBXTargetDependency */,
+				FA350061196C477EAB97BC59 /* PBXTargetDependency */,
+				FAB8C60812374047B73AEB3D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 458AEB2EDD174093BD0731D4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 88076BC2D9E742EE8A6E47BE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				4FEDF85707748CD5C3E21FDE /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -33,12 +33,12 @@
 		};
 		F1458F4EA8320CC2546796DB /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 6218430946394458968A7198 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = E66968336D3740948A4AAD69 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				2B5465E2274E47C7969074D1 /* PBXTargetDependency */,
+				E9A4EFDC74D84B3194C7AE64 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
@@ -46,77 +46,77 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		3BAF72CE8547485EB0924E1C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */ = {isa = PBXBuildFile; fileRef = E8D7FF112D414E47B332E253 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */; };
-		4C9D90544AC74788980EE0B0 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */ = {isa = PBXBuildFile; fileRef = 3A693AA2A4F6475586F92D71 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */; };
-		5B162AF383924649BB7A4052 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */ = {isa = PBXBuildFile; fileRef = 9164697D077E45A1874967DF /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */; };
-		60139DDD90224E75AB843D80 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */ = {isa = PBXBuildFile; fileRef = 8C470C8A4C3D41FD8BB34F50 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */; };
-		66E2774167EF4F439DF9CF1F /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */ = {isa = PBXBuildFile; fileRef = 35C0E5B0AA4A44D59B5612C9 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */; };
-		7DE4943D80DE4D0194A4C728 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */ = {isa = PBXBuildFile; fileRef = 3E3B3C05BC154963BCBDD919 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */; };
-		B2589FACCCCF49CC8D63CF07 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 75A00735E52446FA94D02461 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */; };
-		B55F3D02F3494299B4A7F947 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */ = {isa = PBXBuildFile; fileRef = B20D950F503D4E1E9EC6537C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */; };
-		B8B5DE58FCC7453EA5BEEC67 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */ = {isa = PBXBuildFile; fileRef = 9009A961C2114C96B40B2158 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */; };
-		C4A618F57D51401DA73328A0 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */ = {isa = PBXBuildFile; fileRef = 1C5B222A89C54CEE862D2BD1 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */; };
-		C8BD19146D31420C8C9CA026 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */ = {isa = PBXBuildFile; fileRef = ECBA3A9D069B46C099CD77CE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */; };
-		DF9E525ECEDF4771A30BC306 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */ = {isa = PBXBuildFile; fileRef = 6D379E3908884E97A1BE47AD /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */; };
-		FD14BAEF435445FB8694DE9B /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */ = {isa = PBXBuildFile; fileRef = DC6A97F7FB6549C4B7C5DD54 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */; };
+		03BCAF39D54E4072AB6D771B /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */ = {isa = PBXBuildFile; fileRef = 885B602A84E84AFC9F78FDB6 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */; };
+		0D49422961224F5C976BDC11 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */ = {isa = PBXBuildFile; fileRef = 57381366ABE848209ECA25AE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */; };
+		1B20C8C6677646879C10CC01 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */ = {isa = PBXBuildFile; fileRef = 7C3EAAF9CBC2494E91A5F903 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */; };
+		30DEFC1C8A49434A9592EFCD /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */ = {isa = PBXBuildFile; fileRef = FD2C28B3498E487AB4ECFF98 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */; };
+		5EFC58F37EB54735AA4D6495 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */ = {isa = PBXBuildFile; fileRef = CDAADE0CCE97432CB6977BF7 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */; };
+		60CCEB09F4BC4C81AABCA1F4 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */ = {isa = PBXBuildFile; fileRef = CFE75DB955854C698D14E96E /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */; };
+		8F8C84FDC9234F86B03F4C0E /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */ = {isa = PBXBuildFile; fileRef = 7D195126E7E6421EA3A3EB1C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */; };
+		9DE43F3B62044CF5894FA78F /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */ = {isa = PBXBuildFile; fileRef = BE34309A6A2C48F0A4042E12 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */; };
+		ACEBF72AEEB94140BEEC1897 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */ = {isa = PBXBuildFile; fileRef = 2B819CFF419943B1AC5200F3 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */; };
+		AD6C6275790E40C889AAED5C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */ = {isa = PBXBuildFile; fileRef = E85BDDFB55704EB5967B0A90 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */; };
+		BA78DED786744A3FAD6914F3 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */ = {isa = PBXBuildFile; fileRef = 402D514712154CEA88612B9C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */; };
+		E251A51912A84E14B2837656 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */ = {isa = PBXBuildFile; fileRef = BFEBB29F11364079BB1D02F5 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */; };
+		E7AC38FC8F3B4DB3AEC97FF5 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 12ADADADB52D414581078F95 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		14E065F3F11649438534E707 /* Release */ = {
+		495E22E233F34DB48EEA6538 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		527262850A134705B44665BD /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		59B3D536F5E64A459319CE82 /* RelWithDebInfo */ = {
+		57DF5D0260AE4E6AA0F7F0BB /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		9C5F05F3B181427AB3DD1F5B /* MinSizeRel */ = {
+		A99A0D619F024A53B442FA31 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		DB70E6EA8B6D4B6A8D82BF69 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		22B80986A33E4301BD142CD0 /* PBXContainerItemProxy */ = {
+		252DD987E2734586AA30793E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8AEC5071709842808B3F9799 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D2690A5A3F0CDCBBD56C9B3;
-			remoteInfo = tmxlite;
-		};
-		235F27A4D8524B86AE64ACB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AEC5071709842808B3F9799 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E00DE3F71F569CA7A015F1EA;
-			remoteInfo = ZERO_CHECK;
-		};
-		748A97A802464AD0B96F27D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AEC5071709842808B3F9799 /* Project object */;
+			containerPortal = 7E98B416D0694935A6552DE0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CAABC57AD714E87C7BB4008D;
 			remoteInfo = ALL_BUILD;
 		};
-		F7288B600D3E435BAA0816D8 /* PBXContainerItemProxy */ = {
+		A7D5846DDC494FDABDC390F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8AEC5071709842808B3F9799 /* Project object */;
+			containerPortal = 7E98B416D0694935A6552DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00DE3F71F569CA7A015F1EA;
+			remoteInfo = ZERO_CHECK;
+		};
+		C2DFD517FD944011B3F94C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E98B416D0694935A6552DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2690A5A3F0CDCBBD56C9B3;
+			remoteInfo = tmxlite;
+		};
+		DD9DB32D0A19461587DC45A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E98B416D0694935A6552DE0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E00DE3F71F569CA7A015F1EA;
 			remoteInfo = ZERO_CHECK;
@@ -124,25 +124,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C5B222A89C54CEE862D2BD1 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = miniz.c; path = src/miniz.c; sourceTree = SOURCE_ROOT; };
-		35C0E5B0AA4A44D59B5612C9 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjectGroup.cpp; path = src/ObjectGroup.cpp; sourceTree = SOURCE_ROOT; };
-		3A693AA2A4F6475586F92D71 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TileLayer.cpp; path = src/TileLayer.cpp; sourceTree = SOURCE_ROOT; };
-		3E3B3C05BC154963BCBDD919 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjectTypes.cpp; path = src/ObjectTypes.cpp; sourceTree = SOURCE_ROOT; };
-		6D379E3908884E97A1BE47AD /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Property.cpp; path = src/Property.cpp; sourceTree = SOURCE_ROOT; };
-		75A00735E52446FA94D02461 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		8C470C8A4C3D41FD8BB34F50 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Object.cpp; path = src/Object.cpp; sourceTree = SOURCE_ROOT; };
-		9009A961C2114C96B40B2158 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImageLayer.cpp; path = src/ImageLayer.cpp; sourceTree = SOURCE_ROOT; };
-		9164697D077E45A1874967DF /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FreeFuncs.cpp; path = src/FreeFuncs.cpp; sourceTree = SOURCE_ROOT; };
-		93986A1E86FA492BB929E748 /* tmxlite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libtmxlite-d.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B20D950F503D4E1E9EC6537C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pugixml.cpp; path = src/detail/pugixml.cpp; sourceTree = SOURCE_ROOT; };
-		DC6A97F7FB6549C4B7C5DD54 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Tileset.cpp; path = src/Tileset.cpp; sourceTree = SOURCE_ROOT; };
-		E8D7FF112D414E47B332E253 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Map.cpp; path = src/Map.cpp; sourceTree = SOURCE_ROOT; };
-		ECBA3A9D069B46C099CD77CE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LayerGroup.cpp; path = src/LayerGroup.cpp; sourceTree = SOURCE_ROOT; };
-		FDA97238AD7D4ADE983F7C73 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0DA9F19628804CD185F6BB47 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		12ADADADB52D414581078F95 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2B819CFF419943B1AC5200F3 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FreeFuncs.cpp; path = src/FreeFuncs.cpp; sourceTree = SOURCE_ROOT; };
+		402D514712154CEA88612B9C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Tileset.cpp; path = src/Tileset.cpp; sourceTree = SOURCE_ROOT; };
+		57381366ABE848209ECA25AE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjectTypes.cpp; path = src/ObjectTypes.cpp; sourceTree = SOURCE_ROOT; };
+		7C3EAAF9CBC2494E91A5F903 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LayerGroup.cpp; path = src/LayerGroup.cpp; sourceTree = SOURCE_ROOT; };
+		7D195126E7E6421EA3A3EB1C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImageLayer.cpp; path = src/ImageLayer.cpp; sourceTree = SOURCE_ROOT; };
+		885B602A84E84AFC9F78FDB6 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Object.cpp; path = src/Object.cpp; sourceTree = SOURCE_ROOT; };
+		BE34309A6A2C48F0A4042E12 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Map.cpp; path = src/Map.cpp; sourceTree = SOURCE_ROOT; };
+		BFEBB29F11364079BB1D02F5 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TileLayer.cpp; path = src/TileLayer.cpp; sourceTree = SOURCE_ROOT; };
+		CDAADE0CCE97432CB6977BF7 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pugixml.cpp; path = src/detail/pugixml.cpp; sourceTree = SOURCE_ROOT; };
+		CFE75DB955854C698D14E96E /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = miniz.c; path = src/miniz.c; sourceTree = SOURCE_ROOT; };
+		E85BDDFB55704EB5967B0A90 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjectGroup.cpp; path = src/ObjectGroup.cpp; sourceTree = SOURCE_ROOT; };
+		EC2F0C7C62D34C0EBC1A25EE /* tmxlite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libtmxlite-d.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2C28B3498E487AB4ECFF98 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Property.cpp; path = src/Property.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E7E9D4915E540DDBACF3E60 /* Frameworks */ = {
+		A17EE210849D4395AC96A930 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -152,81 +152,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E202173D7854371829483D5 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				7B144C6847F34D1AB17401C3 /* CMake Rules */,
-				FDA97238AD7D4ADE983F7C73 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		1279DEE500F74ED1860D06F2 /* tmxlite */ = {
-			isa = PBXGroup;
-			children = (
-				26A3F44092D64A358AE8A65A /* Source Files */,
-				75A00735E52446FA94D02461 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */,
-			);
-			name = tmxlite;
-			sourceTree = "<group>";
-		};
-		26A3F44092D64A358AE8A65A /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				9164697D077E45A1874967DF /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */,
-				9009A961C2114C96B40B2158 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */,
-				ECBA3A9D069B46C099CD77CE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */,
-				E8D7FF112D414E47B332E253 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */,
-				8C470C8A4C3D41FD8BB34F50 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */,
-				35C0E5B0AA4A44D59B5612C9 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */,
-				3E3B3C05BC154963BCBDD919 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */,
-				6D379E3908884E97A1BE47AD /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */,
-				3A693AA2A4F6475586F92D71 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */,
-				DC6A97F7FB6549C4B7C5DD54 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */,
-				B20D950F503D4E1E9EC6537C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */,
-				1C5B222A89C54CEE862D2BD1 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		31E10EE300CC475E89356494 /* Resources */ = {
+		0539C5B565E141C298F3009A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		7B144C6847F34D1AB17401C3 /* CMake Rules */ = {
+		334A92EB53A849269009F3C7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3AD012512E714ED5AC793C3A /* CMake Rules */,
+				0DA9F19628804CD185F6BB47 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3AD012512E714ED5AC793C3A /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		B5E728A852894AAA87DE19AF = {
+		4BCE5B31D08149CB9569C0DF /* tmxlite */ = {
 			isa = PBXGroup;
 			children = (
-				1279DEE500F74ED1860D06F2 /* tmxlite */,
-				0E202173D7854371829483D5 /* ALL_BUILD */,
-				C3235B7100C442769434F9F4 /* Products */,
-				CC2313BA3A874A8B836DED2E /* Frameworks */,
-				31E10EE300CC475E89356494 /* Resources */,
+				C0CE5785D6594E3A94E18997 /* Source Files */,
+				12ADADADB52D414581078F95 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */,
 			);
+			name = tmxlite;
 			sourceTree = "<group>";
 		};
-		C3235B7100C442769434F9F4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				93986A1E86FA492BB929E748 /* tmxlite */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CC2313BA3A874A8B836DED2E /* Frameworks */ = {
+		7E766ECFC92945E3B4A70FF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0BC6B741E804063B4C67A02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2F0C7C62D34C0EBC1A25EE /* tmxlite */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0CE5785D6594E3A94E18997 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B819CFF419943B1AC5200F3 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */,
+				7D195126E7E6421EA3A3EB1C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */,
+				7C3EAAF9CBC2494E91A5F903 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */,
+				BE34309A6A2C48F0A4042E12 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */,
+				885B602A84E84AFC9F78FDB6 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */,
+				E85BDDFB55704EB5967B0A90 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */,
+				57381366ABE848209ECA25AE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */,
+				FD2C28B3498E487AB4ECFF98 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */,
+				BFEBB29F11364079BB1D02F5 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */,
+				402D514712154CEA88612B9C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */,
+				CDAADE0CCE97432CB6977BF7 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */,
+				CFE75DB955854C698D14E96E /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F4434BB76AA340C8A0660AAA = {
+			isa = PBXGroup;
+			children = (
+				4BCE5B31D08149CB9569C0DF /* tmxlite */,
+				334A92EB53A849269009F3C7 /* ALL_BUILD */,
+				A0BC6B741E804063B4C67A02 /* Products */,
+				7E766ECFC92945E3B4A70FF5 /* Frameworks */,
+				0539C5B565E141C298F3009A /* Resources */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,43 +234,43 @@
 /* Begin PBXNativeTarget section */
 		2D2690A5A3F0CDCBBD56C9B3 /* tmxlite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61C3D188EA164D2E89E1F607 /* Build configuration list for PBXNativeTarget "tmxlite" */;
+			buildConfigurationList = F8C8368A14EF486D93B8E234 /* Build configuration list for PBXNativeTarget "tmxlite" */;
 			buildPhases = (
-				00038CEC1D1A45D18CE67B34 /* Sources */,
-				0E7E9D4915E540DDBACF3E60 /* Frameworks */,
+				01472FBEC162452293FECFE4 /* Sources */,
+				A17EE210849D4395AC96A930 /* Frameworks */,
 				4B2D95D5CF77940F8F5A186D /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				34997A25D55F487EBE8B1AD8 /* PBXTargetDependency */,
+				FCAC9C795AA34F9B8A1D260B /* PBXTargetDependency */,
 			);
 			name = tmxlite;
 			productName = tmxlite;
-			productReference = 93986A1E86FA492BB929E748 /* tmxlite */;
+			productReference = EC2F0C7C62D34C0EBC1A25EE /* tmxlite */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8AEC5071709842808B3F9799 /* Project object */ = {
+		7E98B416D0694935A6552DE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 2600;
 			};
-			buildConfigurationList = D674CBAB25174DF58540939B /* Build configuration list for PBXProject "tmxlite" */;
+			buildConfigurationList = 3CFA2AAC4C2440609D9C5491 /* Build configuration list for PBXProject "tmxlite" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				527262850A134705B44665BD /* Debug */,
-				14E065F3F11649438534E707 /* Release */,
-				9C5F05F3B181427AB3DD1F5B /* MinSizeRel */,
-				59B3D536F5E64A459319CE82 /* RelWithDebInfo */,
+				DB70E6EA8B6D4B6A8D82BF69 /* Debug */,
+				495E22E233F34DB48EEA6538 /* Release */,
+				A99A0D619F024A53B442FA31 /* MinSizeRel */,
+				57DF5D0260AE4E6AA0F7F0BB /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = B5E728A852894AAA87DE19AF;
+			mainGroup = F4434BB76AA340C8A0660AAA;
 			projectDirPath = /Users/matty/projects/boba/bulkin/thirdParty/tmxlite;
 			projectRoot = "";
 			targets = (
@@ -463,74 +463,52 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00038CEC1D1A45D18CE67B34 /* Sources */ = {
+		01472FBEC162452293FECFE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B162AF383924649BB7A4052 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */,
-				B8B5DE58FCC7453EA5BEEC67 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */,
-				C8BD19146D31420C8C9CA026 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */,
-				3BAF72CE8547485EB0924E1C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */,
-				60139DDD90224E75AB843D80 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */,
-				66E2774167EF4F439DF9CF1F /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */,
-				7DE4943D80DE4D0194A4C728 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */,
-				DF9E525ECEDF4771A30BC306 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */,
-				4C9D90544AC74788980EE0B0 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */,
-				FD14BAEF435445FB8694DE9B /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */,
-				B55F3D02F3494299B4A7F947 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */,
-				C4A618F57D51401DA73328A0 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */,
+				ACEBF72AEEB94140BEEC1897 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */,
+				8F8C84FDC9234F86B03F4C0E /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */,
+				1B20C8C6677646879C10CC01 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */,
+				9DE43F3B62044CF5894FA78F /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */,
+				03BCAF39D54E4072AB6D771B /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */,
+				AD6C6275790E40C889AAED5C /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */,
+				0D49422961224F5C976BDC11 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */,
+				30DEFC1C8A49434A9592EFCD /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */,
+				E251A51912A84E14B2837656 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */,
+				BA78DED786744A3FAD6914F3 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */,
+				5EFC58F37EB54735AA4D6495 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */,
+				60CCEB09F4BC4C81AABCA1F4 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B5465E2274E47C7969074D1 /* PBXTargetDependency */ = {
+		E9A4EFDC74D84B3194C7AE64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CAABC57AD714E87C7BB4008D /* ALL_BUILD */;
-			targetProxy = 748A97A802464AD0B96F27D3 /* PBXContainerItemProxy */;
+			targetProxy = 252DD987E2734586AA30793E /* PBXContainerItemProxy */;
 		};
-		34997A25D55F487EBE8B1AD8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */;
-			targetProxy = 235F27A4D8524B86AE64ACB9 /* PBXContainerItemProxy */;
-		};
-		95BF943CA90A4930880B3C57 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */;
-			targetProxy = F7288B600D3E435BAA0816D8 /* PBXContainerItemProxy */;
-		};
-		C5A3ACA329A24BE4B82AC76A /* PBXTargetDependency */ = {
+		FA350061196C477EAB97BC59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2D2690A5A3F0CDCBBD56C9B3 /* tmxlite */;
-			targetProxy = 22B80986A33E4301BD142CD0 /* PBXContainerItemProxy */;
+			targetProxy = C2DFD517FD944011B3F94C75 /* PBXContainerItemProxy */;
+		};
+		FAB8C60812374047B73AEB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */;
+			targetProxy = A7D5846DDC494FDABDC390F6 /* PBXContainerItemProxy */;
+		};
+		FCAC9C795AA34F9B8A1D260B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */;
+			targetProxy = DD9DB32D0A19461587DC45A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		014057A2FF55436FAC8001AC /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		016A68F91A684318B9DEE46A /* Release */ = {
+		0893BC083FDF49A4A7CAF727 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -562,7 +540,51 @@ fi
 			};
 			name = Release;
 		};
-		07CF9492AEDB47D5840EEB51 /* RelWithDebInfo */ = {
+		10A76054C6264D2FB889C384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		11765217EE5948779D232058 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		23DF2226178142528F968B71 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -584,7 +606,60 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		0B0AFB1AE008461D9DE4F1AD /* MinSizeRel */ = {
+		29748AB6D86745F6AC074A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2EBB52405AA8483682EAF751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		416F07D0F56B43DEAC4FF8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+			};
+			name = Debug;
+		};
+		482BC747052C4C9CBF95F5A8 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -594,7 +669,73 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		3103EFF6CDDD4FE2B88BDAAF /* Debug */ = {
+		4A16BE0766EA48FEA052DC5B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4B0E5FAE0EE44349B90E4B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		54162E3BD9AF4628837AF9D9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		57FF56F956A447889A1C539A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -626,202 +767,7 @@ fi
 			};
 			name = Debug;
 		};
-		32A78517016D44F6B9C47D53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		5EACC400929A4229AF0DBEDA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
-			};
-			name = Release;
-		};
-		76C63390494E45D7AC837DF9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		7DC2D13D99824CD188447BE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
-			};
-			name = Debug;
-		};
-		9EF4244B623A478CAED2B67E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		A317FFBE6E0F4AC185F6938A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		A5F52C4E15924693B4EFF832 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		C18BDE14BB764FBFB5583301 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		DB0B06A035C84252889EFBEB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		DBA1B89D5D3F40C393143E84 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		E02FDDE2D64A4D84AF138807 /* RelWithDebInfo */ = {
+		61559EC2316845798C7DB05E /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -853,7 +799,29 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		EE16A3CEFC1D49DD8521B2CC /* RelWithDebInfo */ = {
+		61AC5F1F771F4AAAB39DCEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		69D7BF49726A474795C18777 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -861,9 +829,53 @@ fi
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
 			};
+			name = Release;
+		};
+		A906239146474B14A83AFA79 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = RelWithDebInfo;
 		};
-		F2557C42CBC24B36B87DB8C0 /* MinSizeRel */ = {
+		B9B4E5BCD44C4049939966B9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C8FDB199AB224A4FA4F70F67 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -895,7 +907,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		F5926C1190394D5B88B1005B /* MinSizeRel */ = {
+		C9E7D716A4BF46579664D9E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -910,94 +922,82 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		FAFFB78F5F254DD7B8EEE1B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
+		E784FBF79526408085F52DE1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		458AEB2EDD174093BD0731D4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		2906A4C659A4427AB9FE4BFB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32A78517016D44F6B9C47D53 /* Debug */,
-				DB0B06A035C84252889EFBEB /* Release */,
-				DBA1B89D5D3F40C393143E84 /* MinSizeRel */,
-				A317FFBE6E0F4AC185F6938A /* RelWithDebInfo */,
+				4B0E5FAE0EE44349B90E4B98 /* Debug */,
+				61AC5F1F771F4AAAB39DCEC9 /* Release */,
+				B9B4E5BCD44C4049939966B9 /* MinSizeRel */,
+				23DF2226178142528F968B71 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		61C3D188EA164D2E89E1F607 /* Build configuration list for PBXNativeTarget "tmxlite" */ = {
+		3CFA2AAC4C2440609D9C5491 /* Build configuration list for PBXProject "tmxlite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3103EFF6CDDD4FE2B88BDAAF /* Debug */,
-				016A68F91A684318B9DEE46A /* Release */,
-				F2557C42CBC24B36B87DB8C0 /* MinSizeRel */,
-				E02FDDE2D64A4D84AF138807 /* RelWithDebInfo */,
+				416F07D0F56B43DEAC4FF8E6 /* Debug */,
+				69D7BF49726A474795C18777 /* Release */,
+				482BC747052C4C9CBF95F5A8 /* MinSizeRel */,
+				E784FBF79526408085F52DE1 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6218430946394458968A7198 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		88076BC2D9E742EE8A6E47BE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAFFB78F5F254DD7B8EEE1B3 /* Debug */,
-				C18BDE14BB764FBFB5583301 /* Release */,
-				014057A2FF55436FAC8001AC /* MinSizeRel */,
-				A5F52C4E15924693B4EFF832 /* RelWithDebInfo */,
+				C9E7D716A4BF46579664D9E2 /* Debug */,
+				29748AB6D86745F6AC074A42 /* Release */,
+				54162E3BD9AF4628837AF9D9 /* MinSizeRel */,
+				A906239146474B14A83AFA79 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D674CBAB25174DF58540939B /* Build configuration list for PBXProject "tmxlite" */ = {
+		E66968336D3740948A4AAD69 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DC2D13D99824CD188447BE9 /* Debug */,
-				5EACC400929A4229AF0DBEDA /* Release */,
-				0B0AFB1AE008461D9DE4F1AD /* MinSizeRel */,
-				EE16A3CEFC1D49DD8521B2CC /* RelWithDebInfo */,
+				2EBB52405AA8483682EAF751 /* Debug */,
+				10A76054C6264D2FB889C384 /* Release */,
+				11765217EE5948779D232058 /* MinSizeRel */,
+				4A16BE0766EA48FEA052DC5B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DBE447DBE708481E98FF5055 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		F8C8368A14EF486D93B8E234 /* Build configuration list for PBXNativeTarget "tmxlite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EF4244B623A478CAED2B67E /* Debug */,
-				76C63390494E45D7AC837DF9 /* Release */,
-				F5926C1190394D5B88B1005B /* MinSizeRel */,
-				07CF9492AEDB47D5840EEB51 /* RelWithDebInfo */,
+				57FF56F956A447889A1C539A /* Debug */,
+				0893BC083FDF49A4A7CAF727 /* Release */,
+				C8FDB199AB224A4FA4F70F67 /* MinSizeRel */,
+				61559EC2316845798C7DB05E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8AEC5071709842808B3F9799 /* Project object */;
+	rootObject = 7E98B416D0694935A6552DE0 /* Project object */;
 }

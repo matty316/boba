@@ -39,13 +39,6 @@ dependencies: \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringUtils.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Base64.hpp \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/glTF/glTFAssetWriter.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/glTF/glTFAssetWriter.inl \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/stringbuffer.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/writer.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/internal/dtoa.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/internal/itoa.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/rapidjson/include/rapidjson/prettywriter.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/MakeVerboseFormat.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/BaseProcess.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/GenericProperty.h \

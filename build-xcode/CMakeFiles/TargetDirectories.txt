@@ -19,9 +19,6 @@
 /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/CMakeFiles/ZERO_CHECK.dir
 /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/code/CMakeFiles/assimp.dir
 /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/code/CMakeFiles/install.dir
-/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/test/CMakeFiles/unit.dir
-/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/test/CMakeFiles/install.dir
-/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/test/headercheck/CMakeFiles/install.dir
 /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/CMakeFiles/tmxlite.dir
 /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/CMakeFiles/install.dir
 /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/CMakeFiles/ALL_BUILD.dir

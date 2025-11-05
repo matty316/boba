@@ -16,6 +16,4 @@ dependencies: \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Importer.h \
   /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/matrix4x4.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/ScenePrivate.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/StbCommon.h \
-  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/stb/stb_image.h
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/ScenePrivate.h
