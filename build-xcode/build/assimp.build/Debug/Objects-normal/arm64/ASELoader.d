@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/ASE/ASELoader.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/ASE/ASELoader.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/ASE/ASEParser.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/anim.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ParsingUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/qnan.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3DS/3DSLoader.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3DS/3DSHelper.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/SmoothingGroups.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/SpatialSort.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/camera.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/light.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/material.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/pushpack1.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/poppack1.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StreamReader.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/TargetAnimation.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/SkeletonMeshBuilder.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringComparison.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/importerdesc.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOSystem.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Importer.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/fast_atof.h

@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MD3/MD3Loader.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MD3/MD3Loader.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MD3/MD3FileData.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/anim.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/pushpack1.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/poppack1.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ByteSwapper.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringComparison.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Importer.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/matrix4x4.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/GenericProperty.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ParsingUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/RemoveComments.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/SceneCombiner.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/importerdesc.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/material.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOSystem.hpp

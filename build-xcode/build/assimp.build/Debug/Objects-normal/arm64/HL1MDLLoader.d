@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/HL1MDLLoader.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/HL1MDLLoader.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/HL1FileData.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/HalfLifeMDLBaseHeader.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/pushpack1.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Compiler/poppack1.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/HL1ImportSettings.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/UniqueNameGenerator.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/texture.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOSystem.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultIOSystem.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Exceptional.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/HL1ImportDefinitions.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/HL1MeshTrivert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/qnan.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Importer.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/MDL/HalfLife/LogFunctions.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Logger.hpp

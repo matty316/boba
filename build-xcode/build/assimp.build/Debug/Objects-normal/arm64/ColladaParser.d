@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Collada/ColladaParser.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Collada/ColladaParser.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Collada/ColladaHelper.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/light.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/material.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/XmlParser.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOStream.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/pugixml/src/pugixml.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/pugixml/src/pugiconfig.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ParsingUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ZipArchiveIOSystem.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/commonMetaData.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/fast_atof.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOSystem.hpp

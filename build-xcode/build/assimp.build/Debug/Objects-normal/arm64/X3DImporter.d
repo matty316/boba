@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/X3D/X3DImporter.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/VRML/VrmlConverter.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/X3D/X3DImporter.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/X3D/X3DImporter_Node.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/XmlParser.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOStream.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/pugixml/src/pugixml.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/pugixml/src/pugiconfig.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/importerdesc.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ProgressHandler.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/X3D/X3DImporter_Macro.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultIOSystem.h

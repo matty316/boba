@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3MF/XmlSerializer.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3MF/XmlSerializer.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/XmlParser.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOStream.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/pugixml/src/pugixml.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/pugixml/src/pugiconfig.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3MF/D3MFOpcPackage.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOSystem.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3MF/3MFXmlTags.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/3MF/3MFTypes.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/vector3.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/matrix4x4.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ParsingUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h

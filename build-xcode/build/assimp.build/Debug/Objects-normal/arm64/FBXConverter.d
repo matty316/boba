@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXConverter.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXConverter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXParser.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/LogAux.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/fast_atof.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/StackAllocator.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/StackAllocator.inl \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXCompileConfig.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXTokenizer.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXMeshGeometry.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXDocument.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXProperties.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXUtil.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXImportSettings.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/anim.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/material.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/light.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/texture.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/camera.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringComparison.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/MathFunctions.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/CreateAnimMesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StringUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/commonMetaData.h

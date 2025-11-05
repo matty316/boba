@@ -1,0 +1,15 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Obj/ObjFileMtlImporter.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Obj/ObjFileMtlImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Maybe.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Obj/ObjFileData.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/Obj/ObjTools.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ParsingUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/fast_atof.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultIOSystem.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/material.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp

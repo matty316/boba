@@ -1,0 +1,1003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CAABC57AD714E87C7BB4008D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2BDA66FE4F404DE79998D0E5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BFA028C1A10226CA4A3A4CDA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				BE8684C592664858913CAF76 /* PBXTargetDependency */,
+				C7BB310B2E7041728C353797 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04264F27DB464489AE360CAE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4FEDF85707748CD5C3E21FDE /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F1458F4EA8320CC2546796DB /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E31E5B2187874CF99DBE5CC5 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D342C400926C4CC79049D7EA /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B191E979B034260A5FF33CD /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */ = {isa = PBXBuildFile; fileRef = 826B03512C4C4AD9B5D31430 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */; };
+		10D96364B27F4AEBAE3951E9 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */ = {isa = PBXBuildFile; fileRef = DD2F734AEA2C415180371047 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */; };
+		1CCFEF70EB8347B98ADD6D59 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */ = {isa = PBXBuildFile; fileRef = 289A48D2B1FD48BE97405CAE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */; };
+		23D3B06A8C374A02AB696ACE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */ = {isa = PBXBuildFile; fileRef = 8B4139CE208A419CA7A92C5D /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */; };
+		351ADF7E48E94CECB75C3985 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */ = {isa = PBXBuildFile; fileRef = EDFDFB432BDE4B35A3B5B046 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */; };
+		3C7A4488E1784BB0B39CBBDC /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */ = {isa = PBXBuildFile; fileRef = CDC7B01E792A4D12A30F4FCA /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */; };
+		4992FAE463474650BB7801D1 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */ = {isa = PBXBuildFile; fileRef = 9CC4B1AB22E64DE3935B1985 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */; };
+		51D5F5BE56F24DB69BC1A327 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */ = {isa = PBXBuildFile; fileRef = 83381532DDD748F3BE3A9339 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */; };
+		5520CAE6405C4CEDA700B39F /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3A6CEDB945AE46C5AD371C33 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */; };
+		5CECC1463A1B4544826DA1FF /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */ = {isa = PBXBuildFile; fileRef = 6281067D6D8D4BDF934A04CA /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */; };
+		5F5CCBA17193479CAAD045A2 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */ = {isa = PBXBuildFile; fileRef = C79F986AD1884C11B3745999 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */; };
+		B4E85CB7C2B04CEE9F8D5322 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */ = {isa = PBXBuildFile; fileRef = D6A746C7B22647ED891856D7 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */; };
+		FCAED88C61494EB2B33079B1 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */ = {isa = PBXBuildFile; fileRef = FFC83EDC70184CBEAB81E27F /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0C142F094304452882742642 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		68BD9CA266434D3AB77ED739 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A812A57A6BA74F6B96BEA32B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F73EE934C10E440781E93A88 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3CED29B6539E4B70915D99E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEC5071709842808B3F9799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAABC57AD714E87C7BB4008D;
+			remoteInfo = ALL_BUILD;
+		};
+		971ED9F3EC2E4F4B99138B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEC5071709842808B3F9799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00DE3F71F569CA7A015F1EA;
+			remoteInfo = ZERO_CHECK;
+		};
+		A5ABC11BC1104F8983E50447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEC5071709842808B3F9799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2690A5A3F0CDCBBD56C9B3;
+			remoteInfo = tmxlite;
+		};
+		CEEBA1C07E1D47429F77B0C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AEC5071709842808B3F9799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00DE3F71F569CA7A015F1EA;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1161840355D84338BFDDDC4C /* tmxlite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libtmxlite-d.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		289A48D2B1FD48BE97405CAE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Object.cpp; path = src/Object.cpp; sourceTree = SOURCE_ROOT; };
+		3A6CEDB945AE46C5AD371C33 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6281067D6D8D4BDF934A04CA /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LayerGroup.cpp; path = src/LayerGroup.cpp; sourceTree = SOURCE_ROOT; };
+		826B03512C4C4AD9B5D31430 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Tileset.cpp; path = src/Tileset.cpp; sourceTree = SOURCE_ROOT; };
+		83381532DDD748F3BE3A9339 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjectGroup.cpp; path = src/ObjectGroup.cpp; sourceTree = SOURCE_ROOT; };
+		8B4139CE208A419CA7A92C5D /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FreeFuncs.cpp; path = src/FreeFuncs.cpp; sourceTree = SOURCE_ROOT; };
+		9CC4B1AB22E64DE3935B1985 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TileLayer.cpp; path = src/TileLayer.cpp; sourceTree = SOURCE_ROOT; };
+		C79F986AD1884C11B3745999 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pugixml.cpp; path = src/detail/pugixml.cpp; sourceTree = SOURCE_ROOT; };
+		C8154E14802148B3AE2B10DA /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CDC7B01E792A4D12A30F4FCA /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Map.cpp; path = src/Map.cpp; sourceTree = SOURCE_ROOT; };
+		D6A746C7B22647ED891856D7 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = miniz.c; path = src/miniz.c; sourceTree = SOURCE_ROOT; };
+		DD2F734AEA2C415180371047 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImageLayer.cpp; path = src/ImageLayer.cpp; sourceTree = SOURCE_ROOT; };
+		EDFDFB432BDE4B35A3B5B046 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Property.cpp; path = src/Property.cpp; sourceTree = SOURCE_ROOT; };
+		FFC83EDC70184CBEAB81E27F /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjectTypes.cpp; path = src/ObjectTypes.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7F3C8422B104C69B273E5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E41C534FD54984B0B22C04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45729E9A797A4CCA97A14835 /* tmxlite */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D107ACA6041889F97C3C5 /* Source Files */,
+				3A6CEDB945AE46C5AD371C33 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */,
+			);
+			name = tmxlite;
+			sourceTree = "<group>";
+		};
+		55067F2A1B8B41E396F508C5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				792DFDD86D4742788684F5CB /* CMake Rules */,
+				C8154E14802148B3AE2B10DA /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6683EDB2E2484D48B275EBAD = {
+			isa = PBXGroup;
+			children = (
+				45729E9A797A4CCA97A14835 /* tmxlite */,
+				55067F2A1B8B41E396F508C5 /* ALL_BUILD */,
+				7E799107BDB64D95B60E229F /* Products */,
+				27E41C534FD54984B0B22C04 /* Frameworks */,
+				CB21091765C249D490B928CD /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		792DFDD86D4742788684F5CB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7E799107BDB64D95B60E229F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1161840355D84338BFDDDC4C /* tmxlite */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB21091765C249D490B928CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC0D107ACA6041889F97C3C5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B4139CE208A419CA7A92C5D /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */,
+				DD2F734AEA2C415180371047 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */,
+				6281067D6D8D4BDF934A04CA /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */,
+				CDC7B01E792A4D12A30F4FCA /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */,
+				289A48D2B1FD48BE97405CAE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */,
+				83381532DDD748F3BE3A9339 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */,
+				FFC83EDC70184CBEAB81E27F /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */,
+				EDFDFB432BDE4B35A3B5B046 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */,
+				9CC4B1AB22E64DE3935B1985 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */,
+				826B03512C4C4AD9B5D31430 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */,
+				C79F986AD1884C11B3745999 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */,
+				D6A746C7B22647ED891856D7 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D2690A5A3F0CDCBBD56C9B3 /* tmxlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8C970C2ED845ECA1E55480 /* Build configuration list for PBXNativeTarget "tmxlite" */;
+			buildPhases = (
+				32E59E908C5A43BFA7962A22 /* Sources */,
+				B7F3C8422B104C69B273E5C6 /* Frameworks */,
+				4B2D95D5CF77940F8F5A186D /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D6057D6535742069DBBE22F /* PBXTargetDependency */,
+			);
+			name = tmxlite;
+			productName = tmxlite;
+			productReference = 1161840355D84338BFDDDC4C /* tmxlite */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AEC5071709842808B3F9799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = 3B247047D53C4ABF87063537 /* Build configuration list for PBXProject "tmxlite" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				68BD9CA266434D3AB77ED739 /* Debug */,
+				0C142F094304452882742642 /* Release */,
+				F73EE934C10E440781E93A88 /* MinSizeRel */,
+				A812A57A6BA74F6B96BEA32B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6683EDB2E2484D48B275EBAD;
+			projectDirPath = /Users/matty/projects/boba/bulkin/thirdParty/tmxlite;
+			projectRoot = "";
+			targets = (
+				CAABC57AD714E87C7BB4008D /* ALL_BUILD */,
+				F1458F4EA8320CC2546796DB /* install */,
+				2D2690A5A3F0CDCBBD56C9B3 /* tmxlite */,
+				E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4B2D95D5CF77940F8F5A186D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/Debug/libtmxlite-d.dylib /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/Debug/libtmxlite-d.dylib /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/Debug/libtmxlite-d.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/Release/libtmxlite.dylib /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/Release/libtmxlite.dylib /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/Release/libtmxlite.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/MinSizeRel/libtmxlite.dylib /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/MinSizeRel/libtmxlite.dylib /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/MinSizeRel/libtmxlite.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/RelWithDebInfo/libtmxlite.dylib /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/RelWithDebInfo/libtmxlite.dylib /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/RelWithDebInfo/libtmxlite.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		4FEDF85707748CD5C3E21FDE /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  make -f /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  make -f /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  make -f /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  make -f /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BFA028C1A10226CA4A3A4CDA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E59E908C5A43BFA7962A22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D3B06A8C374A02AB696ACE /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/FreeFuncs.cpp */,
+				10D96364B27F4AEBAE3951E9 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ImageLayer.cpp */,
+				5CECC1463A1B4544826DA1FF /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/LayerGroup.cpp */,
+				3C7A4488E1784BB0B39CBBDC /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Map.cpp */,
+				1CCFEF70EB8347B98ADD6D59 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Object.cpp */,
+				51D5F5BE56F24DB69BC1A327 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectGroup.cpp */,
+				FCAED88C61494EB2B33079B1 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/ObjectTypes.cpp */,
+				351ADF7E48E94CECB75C3985 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Property.cpp */,
+				4992FAE463474650BB7801D1 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/TileLayer.cpp */,
+				0B191E979B034260A5FF33CD /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/Tileset.cpp */,
+				5F5CCBA17193479CAAD045A2 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/detail/pugixml.cpp */,
+				B4E85CB7C2B04CEE9F8D5322 /* /Users/matty/projects/boba/bulkin/thirdParty/tmxlite/src/miniz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D6057D6535742069DBBE22F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */;
+			targetProxy = CEEBA1C07E1D47429F77B0C8 /* PBXContainerItemProxy */;
+		};
+		BE8684C592664858913CAF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D2690A5A3F0CDCBBD56C9B3 /* tmxlite */;
+			targetProxy = A5ABC11BC1104F8983E50447 /* PBXContainerItemProxy */;
+		};
+		C7BB310B2E7041728C353797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00DE3F71F569CA7A015F1EA /* ZERO_CHECK */;
+			targetProxy = 971ED9F3EC2E4F4B99138B50 /* PBXContainerItemProxy */;
+		};
+		D342C400926C4CC79049D7EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAABC57AD714E87C7BB4008D /* ALL_BUILD */;
+			targetProxy = 3CED29B6539E4B70915D99E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068C913A40464381B16AB582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0C9D65FB061D4DFFAF036105 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		214365F2FCCD4D79BBC31BA1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		3E3E795ECD49433188B54123 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		4363BC87827D468BB6ACB572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4538080797DA43238A5AA829 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4BE497E8E6EE48BD907CB0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+			};
+			name = Release;
+		};
+		54787BB6852744609908B383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5B1DA796577B4552B6CF5805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",tmxlite_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/tmxlite/include,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -Wall       -D_DEBUG_ '-std=gnu++14' -fPIC ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "tmxlite-d";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/tmxlite.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6068954E2CF44B3891EA462A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6A54F870901345488295C2B9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",tmxlite_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/tmxlite/include,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -Wall     -DNDEBUG '-std=gnu++14' -fPIC ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tmxlite;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/tmxlite.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		739629F757214F1E86BC9438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		85B96CD766884436B2537467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		942C9D0F6ECD4B33AA20A295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",tmxlite_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/tmxlite/include,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -Wall     -DNDEBUG     -DNDEBUG '-std=gnu++14' -fPIC ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tmxlite;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/tmxlite.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B04E10E5E3844C3CA6B4062C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B6236A11BD8A4E6AA70BC83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = "/Users/matty/projects/boba/build-xcode/build";
+			};
+			name = Debug;
+		};
+		D76AFCAAA8C343008BA751C1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D9656722EA16408B9314ED41 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F2555C6EBF8E4E1E861DE8B2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",tmxlite_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/matty/projects/boba/bulkin/thirdParty/tmxlite/include,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -Wall        -DNDEBUG '-std=gnu++14' -fPIC ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tmxlite;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/matty/projects/boba/build-xcode/build/tmxlite.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FF4E426E256349F1B04C9D19 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04264F27DB464489AE360CAE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E10E5E3844C3CA6B4062C /* Debug */,
+				85B96CD766884436B2537467 /* Release */,
+				0C9D65FB061D4DFFAF036105 /* MinSizeRel */,
+				4538080797DA43238A5AA829 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2BDA66FE4F404DE79998D0E5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739629F757214F1E86BC9438 /* Debug */,
+				068C913A40464381B16AB582 /* Release */,
+				D76AFCAAA8C343008BA751C1 /* MinSizeRel */,
+				6068954E2CF44B3891EA462A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3B247047D53C4ABF87063537 /* Build configuration list for PBXProject "tmxlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6236A11BD8A4E6AA70BC83B /* Debug */,
+				4BE497E8E6EE48BD907CB0BB /* Release */,
+				3E3E795ECD49433188B54123 /* MinSizeRel */,
+				214365F2FCCD4D79BBC31BA1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C8C970C2ED845ECA1E55480 /* Build configuration list for PBXNativeTarget "tmxlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1DA796577B4552B6CF5805 /* Debug */,
+				942C9D0F6ECD4B33AA20A295 /* Release */,
+				6A54F870901345488295C2B9 /* MinSizeRel */,
+				F2555C6EBF8E4E1E861DE8B2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E31E5B2187874CF99DBE5CC5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4363BC87827D468BB6ACB572 /* Debug */,
+				54787BB6852744609908B383 /* Release */,
+				FF4E426E256349F1B04C9D19 /* MinSizeRel */,
+				D9656722EA16408B9314ED41 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AEC5071709842808B3F9799 /* Project object */;
+}

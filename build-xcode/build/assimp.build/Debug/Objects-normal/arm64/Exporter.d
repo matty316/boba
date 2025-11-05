@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Exporter.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BlobIOSystem.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/SceneCombiner.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultIOSystem.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Exporter.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/postprocess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Exceptional.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/DefaultProgressHandler.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ProgressHandler.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/BaseProcess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/GenericProperty.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/ScenePrivate.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/CalcTangentsProcess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/MakeVerboseFormat.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/JoinVerticesProcess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/ConvertToLHProcess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/PretransformVertices.h

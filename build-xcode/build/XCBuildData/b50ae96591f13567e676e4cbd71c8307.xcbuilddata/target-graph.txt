@@ -1,0 +1,15 @@
+Target dependency graph (6 targets)
+Target 'boba' in project 'boba'
+➜ Explicit dependency on target 'bulkin' in project 'boba'
+➜ Explicit dependency on target 'glfw' in project 'boba'
+➜ Explicit dependency on target 'assimp' in project 'boba'
+➜ Explicit dependency on target 'tmxlite' in project 'boba'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'boba'
+Target 'ZERO_CHECK' in project 'boba' (no dependencies)
+Target 'bulkin' in project 'boba'
+➜ Explicit dependency on target 'glfw' in project 'boba'
+➜ Explicit dependency on target 'assimp' in project 'boba'
+➜ Explicit dependency on target 'tmxlite' in project 'boba'
+Target 'tmxlite' in project 'boba' (no dependencies)
+Target 'assimp' in project 'boba' (no dependencies)
+Target 'glfw' in project 'boba' (no dependencies)

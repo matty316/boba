@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXExporter.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXExporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXExportNode.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXExportProperty.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/StreamWriter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXCommon.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Exceptional.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXUtil.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXCompileConfig.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/AssetLib/FBX/FBXTokenizer.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/StackAllocator.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/StackAllocator.inl \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/version.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOSystem.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Exporter.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Logger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/material.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h

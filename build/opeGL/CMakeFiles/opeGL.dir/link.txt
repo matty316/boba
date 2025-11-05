@@ -1,2 +1,0 @@
-/usr/bin/ar qc libopeGL.a CMakeFiles/opeGL.dir/src/camera.cpp.o CMakeFiles/opeGL.dir/src/error.cpp.o CMakeFiles/opeGL.dir/src/level.cpp.o CMakeFiles/opeGL.dir/src/model.cpp.o CMakeFiles/opeGL.dir/src/opegl.cpp.o CMakeFiles/opeGL.dir/src/quad.cpp.o CMakeFiles/opeGL.dir/src/shader.cpp.o CMakeFiles/opeGL.dir/src/texture.cpp.o CMakeFiles/opeGL.dir/src/glad.c.o
-/usr/bin/ranlib libopeGL.a
