@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/boba.dir/link.d CMakeFiles/boba.dir/src/main.cpp.o -o boba  opeGL/libopeGL.a /home/matty/projects/boba/opeGL/thirdParty/libassimp.a /home/matty/projects/boba/opeGL/thirdParty/libtmxlite.a /home/matty/projects/boba/opeGL/thirdParty/libzlibstatic.a opeGL/thirdParty/glfw/src/libglfw3.a /usr/lib/librt.a -lm -ldl

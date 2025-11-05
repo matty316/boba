@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Assimp.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Exceptional.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/GenericProperty.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/cimport.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/importerdesc.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Importer.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/LogStream.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/CApi/CInterfaceIOWrapper.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/cfileio.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOStream.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOSystem.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Importer.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/matrix4x4.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/ScenePrivate.h

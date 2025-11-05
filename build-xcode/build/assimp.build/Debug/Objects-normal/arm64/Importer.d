@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Importer.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/version.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/defs.h \
+  /Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/include/assimp/config.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/importerdesc.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Importer.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/matrix4x4.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/BaseProcess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/GenericProperty.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/DefaultProgressHandler.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ProgressHandler.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/ProcessHelper.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/anim.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/material.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/postprocess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ParsingUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/SpatialSort.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/ScenePreprocessor.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/ScenePrivate.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ai_assert.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/MemoryIOWrapper.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Profiler.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/TinyFormatter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Exceptional.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/commonMetaData.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultIOStream.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultIOSystem.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/ValidateDataStructure.h

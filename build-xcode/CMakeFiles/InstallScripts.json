@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/matty/projects/boba/build-xcode/cmake_install.cmake",
+		"/Users/matty/projects/boba/build-xcode/bulkin/cmake_install.cmake",
+		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/cmake_install.cmake",
+		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/src/cmake_install.cmake",
+		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/glfw/docs/cmake_install.cmake",
+		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/cmake_install.cmake",
+		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/code/cmake_install.cmake",
+		"/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/tmxlite/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

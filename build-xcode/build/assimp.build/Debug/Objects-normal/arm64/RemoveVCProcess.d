@@ -1,0 +1,10 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/RemoveVCProcess.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/PostProcessing/RemoveVCProcess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/BaseProcess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/GenericProperty.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/mesh.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/postprocess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp

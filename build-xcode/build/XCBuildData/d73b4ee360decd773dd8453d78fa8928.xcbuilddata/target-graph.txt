@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'glfw' in project 'boba' (no dependencies)

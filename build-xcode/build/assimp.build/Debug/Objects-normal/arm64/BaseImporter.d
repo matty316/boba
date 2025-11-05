@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/BaseImporter.cpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/FileSystemFilter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/IOSystem.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/DefaultLogger.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/fast_atof.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ParsingUtils.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/code/Common/Importer.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/matrix4x4.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/BaseImporter.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/ByteSwapper.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/importerdesc.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/postprocess.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/types.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/scene.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/include/assimp/Importer.hpp \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/utf8cpp/source/utf8.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/utf8cpp/source/utf8/checked.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/utf8cpp/source/utf8/core.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/utf8cpp/source/utf8/cpp17.h \
+  /Users/matty/projects/boba/bulkin/thirdParty/assimp/contrib/utf8cpp/source/utf8/unchecked.h
