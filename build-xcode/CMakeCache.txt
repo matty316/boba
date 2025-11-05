@@ -48,6 +48,8 @@ ASSIMP_BUILD_DRACO:BOOL=OFF
 //Build package as Mac OS X Framework bundle.
 ASSIMP_BUILD_FRAMEWORK:BOOL=OFF
 
+ASSIMP_BUILD_GLTF_IMPORTER:BOOL=ON
+
 //Enable M3D file export
 ASSIMP_BUILD_M3D_EXPORTER:BOOL=OFF
 
@@ -100,6 +102,8 @@ ASSIMP_INJECT_DEBUG_POSTFIX:BOOL=ON
 
 //Disable this if you want to use assimp as a submodule.
 ASSIMP_INSTALL:BOOL=ON
+
+ASSIMP_INSTALL_PDB:BOOL=OFF
 
 //Path for library output files
 ASSIMP_LIBRARY_OUTPUT_DIRECTORY:STRING=/Users/matty/projects/boba/build-xcode/bulkin/thirdParty/assimp/bin
