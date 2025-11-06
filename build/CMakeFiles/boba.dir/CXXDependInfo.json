@@ -1,0 +1,35 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/matty/boba/build",
+	"dir-cur-src" : "/home/matty/boba",
+	"dir-top-bld" : "/home/matty/boba/build",
+	"dir-top-src" : "/home/matty/boba",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/home/matty/boba/include",
+		"/home/matty/boba/opeGL/include",
+		"/home/matty/boba/opeGL/thirdParty/glfw/include",
+		"/home/matty/boba/opeGL/thirdParty/assimp/code/../include",
+		"opeGL/thirdParty/assimp/code/../include",
+		"/home/matty/boba/opeGL/thirdParty/tmxlite/include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/matty/boba/build/CMakeFiles/boba.dir",
+	"sources" : 
+	{
+		"CMakeFiles/boba.dir/src/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/matty/boba/src/main.cpp"
+		}
+	}
+}
