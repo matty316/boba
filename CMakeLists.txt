@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.29)
 
-find_package(Vulkan REQUIRED)
 project(boba LANGUAGES CXX)
 
 if(OPE) 
   add_subdirectory("opeGL")
 else()
+  find_package(Vulkan REQUIRED)
   add_subdirectory("bulkin")
 endif()
 
